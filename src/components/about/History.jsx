@@ -6,10 +6,10 @@ import SaudiArabia from "../../assets/img/Saudi-Arabia.jpg";
 const History = () => {
   return (
     <div className="bg-white dark:bg-dark">
-      <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-2">
+      <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">
         history
       </h1>
-      <div className="bg-white dark:text-white dark:bg-dark mt-4 animate__animated animate__zoomIn">
+      <div className="bg-white dark:text-white dark:bg-dark mt-3 animate__animated animate__zoomIn">
         <div className="flex flex-col lg:flex-row gap-4 mb-4 lg:mb-1">
           <div className="full flex items-center justify-center lg:w-[20%]">
             <img
