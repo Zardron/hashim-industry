@@ -14,7 +14,7 @@ import { VscGear } from "react-icons/vsc";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { PiInfo } from "react-icons/pi";
 import { TiHomeOutline, TiContacts } from "react-icons/ti";
-import { RiArrowRightSLine } from "react-icons/ri";
+import { RiArrowRightSLine, RiArrowRightSFill } from "react-icons/ri";
 
 export {
   FaFacebookSquare,
@@ -36,4 +36,5 @@ export {
   RiArrowRightSLine,
   TiContacts,
   BsTelephone,
+  RiArrowRightSFill,
 };
