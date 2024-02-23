@@ -10,7 +10,7 @@ const Achievements = () => {
         <p className="text-lg dark:text-primary">
           Proud March Towards Completing 60 Years!
         </p>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-2">
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
           When the Hashem Group started its first operations in 1963, some had
           their doubts, but the founder, with the help of his well-wishers and
           grace of the almighty have overcome all challenges and established
@@ -23,7 +23,7 @@ const Achievements = () => {
         <p className="text-lg dark:text-primary pt-4">
           Securing Steady Supply of Plastics
         </p>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-2">
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
           In order to meet the demands of some of the biggest companies in the
           world, we had to revamp and realign our process several times, and we
           have succeeded in standing up to the occasion every time. Today, we
@@ -36,7 +36,7 @@ const Achievements = () => {
         <p className="text-lg dark:text-primary pt-4">
           Creating Benchmarks in Piping Systems
         </p>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-2">
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
           International investments in Saudi Arabia in the real estate segment
           made it one of the busiest places in the Middle East for builders and
           real estate magnates. The burgeoning demands for construction and
@@ -51,7 +51,7 @@ const Achievements = () => {
         <p className="text-lg dark:text-primary pt-4">
           Sustainable Development
         </p>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-2">
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
           In the view of many environmentalists, the production of plastics
           should be done in a manner that causes least harm to the environment.
           Hashem Group is deeply aware of its responsibility towards the
