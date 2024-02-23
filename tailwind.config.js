@@ -39,10 +39,20 @@ export default {
           transform: "rotate(360deg)",
         },
       },
+      bounce: {
+        "0%": { transform: "translate3d(0,-10%,0) scale3d(1,1,1)" },
+        "40%": { transform: "translate3d(0,10%,0) scale3d(.7, 1.2,1 )" },
+        "100%": { transform: "translate3d(0,30%,0) scale3d(1.2,.7, 1)" },
+      },
+    },
+    transformOrigin: {
+      bounce: "50% 50%",
     },
     animation: {
       "spin-slow": "spin 5s linear infinite",
       wiggle: "wiggle 1s ease-in-out infinite",
+      bounce: "bounce .7s linear alternate infinite",
+      none: "none",
     },
   },
   plugins: [],

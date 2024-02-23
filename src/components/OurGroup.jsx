@@ -49,7 +49,7 @@ const OurGroup = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 p-4 lg:p-0">
         {ourGroupData.map((data, key) => (
           <div
-            className="border-primary border-2 rounded-lg shadow-md shadow-secondary hover:scale-105 transition-all ease-in-out duration-300"
+            className="border-primary border-2 rounded-lg shadow-md shadow-secondary transition-all ease-in-out duration-300"
             key={key}
             data-aos="flip-right"
             data-aos-delay={data.id}

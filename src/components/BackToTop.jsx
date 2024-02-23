@@ -29,7 +29,7 @@ const BackToTop = () => {
         } group fixed bottom-20 right-5 p-2 rounded-lg bg-white border-2 border-primary dark:bg-dark dark:border-primary dark:border-2 z-50 hover:bg-dark group`}
       >
         <PiArrowFatLinesUpLight
-          className=" text-dark cursor-pointer group-hover:text-white dark:text-white"
+          className=" text-dark cursor-pointer group-hover:text-white dark:text-white animate-bounce group-hover:animate-none"
           size={30}
           onClick={scrollToTop}
         />
