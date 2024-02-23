@@ -211,7 +211,6 @@ body {
 /* PAGE WRAPPER */
 .page_wrapper {
   position: relative;
-  padding: 10px 40px;
   color: #fff;
 }
 /* .inner_wrap h1 {
@@ -234,8 +233,8 @@ body {
   width: 50%;
   height: 50%;
   position: absolute;
-  bottom: -75px;
-  right: -32px;
+  bottom: -10px;
+  right: -10px;
   border-bottom: 10px solid #0581bc;
   border-right: 10px solid #0581bc;
 }
@@ -245,8 +244,8 @@ body {
   width: 50px;
   height: 50px;
   position: absolute;
-  bottom: -75px;
-  left: -32px;
+  bottom: -10px;
+  left: -10px;
   border-bottom: 10px solid #0581bc;
   border-left: 10px solid #0581bc;
 }
@@ -256,8 +255,8 @@ body {
   width: 50%;
   height: 50%;
   position: absolute;
-  top: -60px;
-  left: -32px;
+  top: -10px;
+  left: -10px;
   border-top: 10px solid #0581bc;
   border-left: 10px solid #0581bc;
 }
@@ -267,8 +266,8 @@ body {
   width: 50px;
   height: 50px;
   position: absolute;
-  top: -60px;
-  right: -32px;
+  top: -10px;
+  right: -10px;
   border-top: 10px solid #0581bc;
   border-right: 10px solid #0581bc;
 }

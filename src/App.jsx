@@ -15,10 +15,18 @@ import About from "./pages/About";
 import PageBanner from "./components/PageBanner";
 
 // Logo
-import ABOUT_LOGO from "../src/assets/banner/innerheader2.jpg";
-import KEYFACTS_LOGO from "../src/assets/banner/innerheader4.jpg";
 import PageHeader from "./components/PageHeader";
 import BackToTop from "./components/BackToTop";
+
+// Banner
+import {
+  BANNER12,
+  BANNER2,
+  BANNER4,
+  BANNER7,
+  BANNER8,
+  BANNER9,
+} from "./assets/banner/Banner";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState("light");
@@ -29,15 +37,30 @@ const App = () => {
 
   const props = { title, setTitle, subTitle, setSubtitle };
 
-  const [bannerImg, setBannerImg] = useState(ABOUT_LOGO);
+  const [bannerImg, setBannerImg] = useState(BANNER2);
 
   useEffect(() => {
     switch (subTitle) {
       case "history":
-        setBannerImg(ABOUT_LOGO);
+        setBannerImg(BANNER2);
         break;
       case "keyfacts":
-        setBannerImg(KEYFACTS_LOGO);
+        setBannerImg(BANNER4);
+        break;
+      case "milestone":
+        setBannerImg(BANNER7);
+        break;
+      case "achievements":
+        setBannerImg(BANNER8);
+        break;
+      case "message":
+        setBannerImg(BANNER4);
+        break;
+      case "management":
+        setBannerImg(BANNER9);
+        break;
+      case "partners":
+        setBannerImg(BANNER12);
         break;
     }
   }, [subTitle, setBannerImg]);

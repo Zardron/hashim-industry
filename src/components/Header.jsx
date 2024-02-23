@@ -10,31 +10,31 @@ const Header = () => {
           </div>
           <div className="flex gap-10">
             <Link to="/">
-              <div className=" text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
+              <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
                 Home
               </div>
             </Link>
             <Link to="/about-us">
-              <div className=" text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
+              <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
                 about the group
               </div>
             </Link>
-            <div className=" text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
+            <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
               global investing
             </div>
-            <div className=" text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
+            <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
               operations
             </div>
-            <div className=" text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
+            <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
               careers
             </div>
-            <div className=" text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
+            <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
               news & events
             </div>
-            <div className=" text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
+            <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
               group directory
             </div>
-            <div className=" text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
+            <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
               contact us
             </div>
           </div>
