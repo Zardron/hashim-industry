@@ -2,11 +2,18 @@ import React from "react";
 
 const Milestone = () => {
   return (
-    <div className="bg-white dark:bg-dark dark:bg-dark">
+    <div className="bg-white dark:bg-dark">
       <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">
         Milestone
       </h1>
-      <div className="bg-white dark:bg-dark dark:text-white dark:bg-dark mt-2 pt-1">
+      <div>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-2">
+          A long line of landmark achievements and product milestones have made
+          hashim industry. A leading company for supplying of plastics,
+          industrial materials, and food packaging products.
+        </p>
+      </div>
+      <div className="bg-white dark:bg-dark dark:text-white mt-2 pt-1">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0">
           <div
             className="relative flex flex-row items-center"
