@@ -62,6 +62,7 @@ const Partners = () => {
       },
     },
     {
+      id: 1000,
       title: "COCA-COLA",
       imgSrc: PARTNER_LOGO5,
       desc: "Another company that is synonymous with cold beverages is Coca Cola. The company has operations worldwide and is growing in presence and significance.",
@@ -96,35 +97,37 @@ const Partners = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
         {partners.map((data, index) => (
-          <div
-            className="w-full flex flex-col items-center"
-            data-aos="flip-right"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <img
-              src={data.imgSrc}
-              alt=""
-              className="w-full bg-primary border-2 border-primary border-l-2 border-r-2 border-t-2 rounded-tr-md rounded-tl-md p-10"
-            />
-            <div className="w-full border-l-2 border-r-2 border-b-2 border-primary">
-              <div className="text-center py-2">{data.title}</div>
-              <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal px-4 py-2">
-                {data.desc}
-                {data.slub && (
-                  <span className="transition-all ease-in-out duration-500">
-                    {" "}
-                    {data.more}
-                  </span>
-                )}
-              </p>
-              <div className="mb-4 text-center">
-                <button
-                  className="border-2 border-primary rounded-md text-sm px-4 py-2 hover:bg-primary hover:text-white "
-                  onClick={data.func}
-                >
-                  {data.slub ? "Read less" : "Read more"}
-                </button>
+          <div key={index}>
+            <div
+              className="w-full flex flex-col items-center"
+              data-aos="flip-right"
+              data-aos-delay={data.id}
+              data-aos-duration="1000"
+            >
+              <img
+                src={data.imgSrc}
+                alt=""
+                className="w-full bg-primary border-2 border-primary border-l-2 border-r-2 border-t-2 rounded-tr-md rounded-tl-md p-10"
+              />
+              <div className="w-full border-l-2 border-r-2 border-b-2 border-primary">
+                <div className="text-center py-2">{data.title}</div>
+                <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal px-4 py-2">
+                  {data.desc}
+                  {data.slub && (
+                    <span className="transition-all ease-in-out duration-500">
+                      {" "}
+                      {data.more}
+                    </span>
+                  )}
+                </p>
+                <div className="mb-4 text-center">
+                  <button
+                    className="border-2 border-primary rounded-md text-sm px-4 py-2 hover:bg-primary hover:text-white "
+                    onClick={data.func}
+                  >
+                    {data.slub ? "Read less" : "Read more"}
+                  </button>
+                </div>
               </div>
             </div>
           </div>
