@@ -19,9 +19,11 @@ const Header = () => {
                 about the group
               </div>
             </Link>
-            <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
-              global investing
-            </div>
+            <Link to="/global-investing">
+              <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
+                global investing
+              </div>
+            </Link>
             <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
               operations
             </div>

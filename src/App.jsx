@@ -26,7 +26,9 @@ import {
   BANNER7,
   BANNER8,
   BANNER9,
+  BANNER3,
 } from "./assets/banner/Banner";
+import GlobalInvesting from "./pages/GlobalInvesting";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState("light");
@@ -72,6 +74,11 @@ const App = () => {
 
       case "/about-us":
         return <PageBanner LOGO={bannerImg} {...props} />;
+
+      case "/global-investing":
+        return (
+          <PageBanner LOGO={BANNER3} title="Home" subTitle="About The Group" />
+        );
       default:
         return <Banner />;
     }
@@ -102,6 +109,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About {...props} />} />
+        <Route path="/global-investing" element={<GlobalInvesting />} />
       </Routes>
       <BackToTop />
       <DarkMode {...darkModeProps} />
