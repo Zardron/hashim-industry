@@ -109,7 +109,7 @@ const GlobalInvesting = () => {
 
         <Accordion className="border-primary border mt-6">
           {globalInvestingData.map((data, index) => (
-            <AccordionPanel>
+            <AccordionPanel key={index}>
               <AccordionTitle
                 className={`bg-primary p-4 ${
                   data.id === 1

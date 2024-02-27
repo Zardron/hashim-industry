@@ -8,6 +8,7 @@ import Achievements from "../components/about/Achievements";
 import Message from "../components/about/Message";
 import Management from "../components/about/Management";
 import Partners from "../components/about/Partners";
+import ScrollToTop from "../components/ScrollToTop";
 
 const menu = [
   {
@@ -75,11 +76,28 @@ const About = ({ setTitle, setSubtitle }) => {
     setSubtitle(title);
   };
 
+  // Sticky Menu Area
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
+
+  /* Method that will fix header after a specific scrollable */
+  const isSticky = (e) => {
+    const header = document.querySelector(".header-section");
+    const scrollTop = window.scrollY;
+    scrollTop >= 450
+      ? header.classList.add("is-sticky")
+      : header.classList.remove("is-sticky");
+  };
+
   return (
     <div className="dark:bg-dark px-8">
       <div className="container mx-auto px-2 flex flex-col lg:flex-row py-10 gap-6">
         <div className="w-full lg:w-[15%]">
-          <div className="border-primary border rounded-md p-4">
+          <div className="border-primary border rounded-md p-4 header-section">
             <h1 className="text-primary font-bold text-2xl uppercase pl-1">
               Menu
             </h1>

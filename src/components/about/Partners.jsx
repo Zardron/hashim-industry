@@ -6,6 +6,11 @@ import PARTNER_LOGO4 from "../../assets/img/Partners-logo4.jpg";
 import PARTNER_LOGO5 from "../../assets/img/Partners-logo5.jpg";
 
 const Partners = () => {
+  window.scroll({
+    top: 500,
+    left: 0,
+    behavior: "smooth",
+  });
   const [readMore, setReadMore] = useState({
     pepsi: false,
     nestle: false,

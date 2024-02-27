@@ -1,8 +1,9 @@
+import { useLocation } from "react-router-dom";
 import { MdOutlineDoubleArrow } from "../assets/Icons";
 
 const PageBanner = ({ LOGO, title, subTitle }) => {
   return (
-    <div className="-z-50 animate__animated animate__slideInDown">
+    <div className="relative -z-50">
       <div
         className={`h-[40vh] w-full bg-cover bg-no-repeat`}
         style={{ backgroundImage: `url(${LOGO})` }}
