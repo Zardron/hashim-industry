@@ -153,7 +153,7 @@ const FloatingMenu = () => {
   return (
     <>
       <div
-        className={`hidden group fixed top-1/4 right-5 rounded-lg bg-white dark:bg-dark border-primary border-2 animate__animated ${
+        className={`hidden lg:block group fixed top-1/4 right-5 rounded-lg bg-white dark:bg-dark border-primary border-2 animate__animated ${
           isScroll ? "animate__flipInX" : "animate__flipOutX"
         } `}
       >
