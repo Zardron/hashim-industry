@@ -76,7 +76,7 @@ const About = ({ setTitle, setSubtitle }) => {
   };
 
   return (
-    <div className="dark:bg-dark">
+    <div className="dark:bg-dark px-8">
       <div className="container mx-auto px-2 flex flex-col lg:flex-row py-10 gap-6">
         <div className="w-full lg:w-[15%]">
           <div className="border-primary border rounded-md p-4">

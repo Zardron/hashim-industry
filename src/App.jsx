@@ -77,7 +77,7 @@ const App = () => {
 
       case "/global-investing":
         return (
-          <PageBanner LOGO={BANNER3} title="Home" subTitle="About The Group" />
+          <PageBanner LOGO={BANNER3} title="Home" subTitle="Global Investing" />
         );
       default:
         return <Banner />;

@@ -151,32 +151,57 @@ const FloatingMenu = () => {
   ];
 
   return (
-    <div
-      className={`group fixed top-1/4 right-5 rounded-lg bg-white dark:bg-dark border-primary border-2 animate__animated ${
-        isScroll ? "animate__flipInX" : "animate__flipOutX"
-      } `}
-    >
-      {menu.map((data, key) => (
-        <div key={key}>
-          <div className={`p-2`}>
-            <Link
-              to={data.link}
-              onMouseEnter={() => setContent(data.title)}
-              data-tooltip-id="my-tooltip-1"
-            >
-              {data.icon}
-            </Link>
+    <>
+      <div
+        className={`hidden group fixed top-1/4 right-5 rounded-lg bg-white dark:bg-dark border-primary border-2 animate__animated ${
+          isScroll ? "animate__flipInX" : "animate__flipOutX"
+        } `}
+      >
+        {menu.map((data, key) => (
+          <div key={key}>
+            <div className={`p-2`}>
+              <Link
+                to={data.link}
+                onMouseEnter={() => setContent(data.title)}
+                data-tooltip-id="my-tooltip-1"
+              >
+                {data.icon}
+              </Link>
+            </div>
+            {data.id === 8 ? (
+              ""
+            ) : (
+              <hr className="mx-2 border border-dark dark:border-white dark:border" />
+            )}
           </div>
-          {data.id === 8 ? (
-            ""
-          ) : (
-            <hr className="mx-2 border border-dark dark:border-white dark:border" />
-          )}
-        </div>
-      ))}
+        ))}
 
-      <ReactToolTip content={content} />
-    </div>
+        <ReactToolTip content={content} />
+      </div>
+
+      <div
+        className={`lg:hidden flex flex-row group fixed top-0 left-1/2 mx-auto rounded-lg bg-white dark:bg-dark border-primary border-2 animate__animated animate__flipIn
+        `}
+        style={{ transform: "translateX(-50%)" }}
+      >
+        {menu.map((data, key) => (
+          <div key={key}>
+            <div className={`p-2 mx-1`}>
+              <Link
+                to={data.link}
+                onMouseEnter={() => setContent(data.title)}
+                data-tooltip-id="my-tooltip-1"
+                data-tooltip-place="bottom"
+              >
+                {data.icon}
+              </Link>
+            </div>
+          </div>
+        ))}
+
+        <ReactToolTip content={content} />
+      </div>
+    </>
   );
 };
 

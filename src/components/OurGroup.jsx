@@ -45,7 +45,7 @@ const ourGroupData = [
 
 const OurGroup = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-8 lg:px:0">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 p-4 lg:p-0">
         {ourGroupData.map((data, key) => (
           <div

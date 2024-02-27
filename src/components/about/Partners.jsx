@@ -109,7 +109,7 @@ const Partners = () => {
                 alt=""
                 className="w-full bg-primary border-2 border-primary border-l-2 border-r-2 border-t-2 rounded-tr-md rounded-tl-md p-10"
               />
-              <div className="w-full border-l-2 border-r-2 border-b-2 border-primary">
+              <div className="w-full border-l-2 border-r-2 border-b-2 border-primary rounded-b-md">
                 <div className="text-center py-2">{data.title}</div>
                 <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal px-4 py-2">
                   {data.desc}
