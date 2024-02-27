@@ -33,16 +33,38 @@ import GlobalInvesting from "./pages/GlobalInvesting";
 import Operations from "./pages/Operations";
 
 const App = () => {
+  // Darkmode Config
   const [darkMode, setDarkMode] = useState("light");
   const element = document.documentElement;
   const location = useLocation().pathname;
+
+  switch (darkMode) {
+    case "dark":
+      element.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+      break;
+
+    case "light":
+      element.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+      break;
+
+    default:
+      element.classList.add("light");
+      break;
+  }
+
+  const darkModeProps = { darkMode, setDarkMode };
+  // End
+
+  // Banner Props
   const [title, setTitle] = useState("");
   const [subTitle, setSubtitle] = useState("");
-
   const props = { title, setTitle, subTitle, setSubtitle };
-
   const [bannerImg, setBannerImg] = useState(BANNER2);
+  // End
 
+  // Banner Img Rendering
   useEffect(() => {
     switch (subTitle) {
       case "history":
@@ -68,7 +90,9 @@ const App = () => {
         break;
     }
   }, [subTitle, setBannerImg]);
+  // End
 
+  // Dynamic Page Banner Rendering
   const banner = (location) => {
     switch (location) {
       case "/":
@@ -89,24 +113,7 @@ const App = () => {
         return <Banner />;
     }
   };
-
-  switch (darkMode) {
-    case "dark":
-      element.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-      break;
-
-    case "light":
-      element.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-      break;
-
-    default:
-      element.classList.add("light");
-      break;
-  }
-
-  const darkModeProps = { darkMode, setDarkMode };
+  // End
 
   return (
     <>

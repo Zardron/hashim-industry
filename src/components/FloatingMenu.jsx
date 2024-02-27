@@ -152,6 +152,7 @@ const FloatingMenu = () => {
 
   return (
     <>
+      {/* DESKTOP FLOATING MENU */}
       <div
         className={`hidden lg:block group fixed top-1/4 right-5 rounded-lg bg-white dark:bg-dark border-primary border-2 animate__animated ${
           isScroll ? "animate__flipInX" : "animate__flipOutX"
@@ -178,15 +179,16 @@ const FloatingMenu = () => {
 
         <ReactToolTip content={content} />
       </div>
+      {/* END */}
 
+      {/* MOBILE BOTTOM STICKY MENU */}
       <div
-        className={`lg:hidden flex flex-row group fixed top-0 left-1/2 mx-auto rounded-lg bg-white dark:bg-dark border-primary border-2 animate__animated animate__flipIn
+        className={`lg:hidden  flex flex-row justify-around group fixed bottom-0 right-0 left-0 mx-auto bg-white dark:bg-dark border-primary border-t-2 animate__animated animate__flipIn
         `}
-        style={{ transform: "translateX(-50%)" }}
       >
         {menu.map((data, key) => (
           <div key={key}>
-            <div className={`p-2 mx-1`}>
+            <div className={`p-2`}>
               <Link
                 to={data.link}
                 onMouseEnter={() => setContent(data.title)}
@@ -201,6 +203,7 @@ const FloatingMenu = () => {
 
         <ReactToolTip content={content} />
       </div>
+      {/* END */}
     </>
   );
 };

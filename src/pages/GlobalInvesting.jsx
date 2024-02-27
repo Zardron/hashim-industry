@@ -98,7 +98,7 @@ const GlobalInvesting = () => {
     <div className="dark:bg-dark">
       <div className="container mx-auto py-10 px-4">
         <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">
-          Achievements
+          Global Investing
         </h1>
 
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
@@ -122,34 +122,17 @@ const GlobalInvesting = () => {
                 {data.title}
               </AccordionTitle>
               <AccordionContent className="p-4 transition-all ease-in-out duration-200">
-                {" "}
-                <div className="flex flex-row justify-around gap-10">
-                  <div className="w-1/3 flex flex-col items-center justify-center">
+                <div className="flex flex-col lg:flex-row justify-around gap-10 mb-4">
+                  <div className="w-1/3 flex flex-col items-center">
                     <h1 className="text-primary font-bold text-xl mb-4">
                       Company Logo
                     </h1>
+                    <img src={data.imgSrc} alt="" />
                   </div>
                   <div className="w-full">
                     <h1 className="text-primary font-bold text-xl mb-4">
                       Company Profile
                     </h1>
-                  </div>
-                  <div className="w-1/2">
-                    <h1 className="text-primary font-bold text-xl mb-4">
-                      Products & Solutions
-                    </h1>
-                  </div>
-                  <div className="w-1/3 flex items-center">
-                    <h1 className="text-primary font-bold text-xl mb-4">
-                      Product Gallery
-                    </h1>
-                  </div>
-                </div>
-                <div className="flex flex-row justify-around gap-10 mb-4">
-                  <div className="w-1/3 flex flex-col items-center justify-center">
-                    <img src={data.imgSrc} alt="" />
-                  </div>
-                  <div className="w-full">
                     <p className="mb-6 text-gray-500 dark:text-gray-400 text-justify">
                       {data.profile}
                     </p>
@@ -162,6 +145,9 @@ const GlobalInvesting = () => {
                     </a>
                   </div>
                   <div className="w-1/2">
+                    <h1 className="text-primary font-bold text-xl mb-4">
+                      Products & Solutions
+                    </h1>
                     <ul>
                       {data?.product?.map((productItem) => (
                         <li className="flex flow-row items-center gap-2">
@@ -171,7 +157,10 @@ const GlobalInvesting = () => {
                       ))}
                     </ul>
                   </div>
-                  <div className="w-1/3 flex items-center justify-center">
+                  <div className="w-1/3 flex flex-col items-center">
+                    <h1 className="text-primary font-bold text-xl mb-4">
+                      Product Gallery
+                    </h1>
                     <img src={data.gallery} alt="" />
                   </div>
                 </div>

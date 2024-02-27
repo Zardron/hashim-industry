@@ -26,7 +26,7 @@ const Header = () => {
             </Link>
             <Link to="/operations">
               <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
-                global investing
+                operations
               </div>
             </Link>
             <div className="text-xs cursor-pointer text-white uppercase font-medium hover:text-[#67c0e9]">
