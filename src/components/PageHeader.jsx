@@ -30,9 +30,11 @@ const PageHeader = ({ darkMode }) => {
                 global investing
               </div>
             </Link>
-            <div className="text-xs cursor-pointer text-dark dark:text-white uppercase font-medium hover:text-[#67c0e9]">
-              operations
-            </div>
+            <Link to="/operations">
+              <div className="text-xs cursor-pointer text-dark dark:text-white uppercase font-medium hover:text-[#67c0e9]">
+                operations
+              </div>
+            </Link>
             <div className="text-xs cursor-pointer text-dark dark:text-white uppercase font-medium hover:text-[#67c0e9]">
               careers
             </div>
