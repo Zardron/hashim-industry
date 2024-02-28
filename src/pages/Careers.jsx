@@ -23,10 +23,27 @@ const menu = [
 const Careers = ({ setTitle, setSubtitle }) => {
   const [renderComponent, setRenderComponent] = useState("careers");
 
+  // Sticky Menu Area
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
+
+  /* Method that will fix header after a specific scrollable */
+  const isSticky = (e) => {
+    const header = document.querySelector(".menu-section");
+    const scrollTop = window.scrollY;
+    scrollTop >= 450
+      ? header.classList.add("is-sticky")
+      : header.classList.remove("is-sticky");
+  };
+
   const render = (component) => {
     switch (component) {
       case "careers":
-        return <Career />;
+        return <Career setRenderComponent={setRenderComponent} />;
       case "recent jobs":
         return <RecentJobs />;
       case "how to apply":
@@ -51,7 +68,7 @@ const Careers = ({ setTitle, setSubtitle }) => {
     <div className="dark:bg-dark px-8 lg:px-0">
       <div className="container mx-auto px-2 flex flex-col lg:flex-row py-10 gap-6">
         <div className="w-full lg:w-[15%]">
-          <div className="border-primary border rounded-md p-4">
+          <div className="lg:menu-section border-primary border rounded-md p-4">
             <h1 className="text-primary font-bold text-2xl uppercase pl-1">
               Menu
             </h1>

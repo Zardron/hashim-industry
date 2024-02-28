@@ -86,7 +86,7 @@ const About = ({ setTitle, setSubtitle }) => {
 
   /* Method that will fix header after a specific scrollable */
   const isSticky = (e) => {
-    const header = document.querySelector(".header-section");
+    const header = document.querySelector(".menu-section");
     const scrollTop = window.scrollY;
     scrollTop >= 450
       ? header.classList.add("is-sticky")
@@ -97,7 +97,7 @@ const About = ({ setTitle, setSubtitle }) => {
     <div className="dark:bg-dark px-8">
       <div className="container mx-auto px-2 flex flex-col lg:flex-row py-10 gap-6">
         <div className="w-full lg:w-[15%]">
-          <div className="border-primary border rounded-md p-4 header-section">
+          <div className="lg:menu-section border-primary border rounded-md p-4">
             <h1 className="text-primary font-bold text-2xl uppercase pl-1">
               Menu
             </h1>
