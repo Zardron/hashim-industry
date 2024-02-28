@@ -12,6 +12,7 @@ import {
   MdEmail,
   TbArrowBadgeRightFilled,
 } from "../assets/Icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,12 +20,12 @@ const Footer = () => {
       <footer className="bg-footerLight dark:bg-footerDark bg-cover lg:bg-contain z-0 w-full shadow dark:bg-gray border-t-primary border-t-2">
         <div className="container w-full mx-auto p-2">
           <div className="flex items-center justify-between">
-            <a
+            <Link
               href="https://flowbite.com/"
               className="flex items-center sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
               <img src={LOGO_W} className="h-18" alt="Company Logo" />
-            </a>
+            </Link>
             <div className="flex flex-row items-center gap-4">
               <FaFacebookSquare
                 size={30}
@@ -66,19 +67,19 @@ const Footer = () => {
               <ul className="flex flex-col  text-sm font-medium sm:mb-0 dark:text-white gap-2 pl-1">
                 <li className="flex flex-row items-center gap-3 text-light dark:text-white">
                   <FaLocationDot />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <a href="" className="hover:underline me-4 md:me-6">
                     Jeddah, Saudi Arabia
                   </a>
                 </li>
                 <li className="flex flex-row items-center gap-3 text-light dark:text-white">
                   <BsFillTelephoneFill />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <a href="" className="hover:underline me-4 md:me-6">
                     +012 345 67890
                   </a>
                 </li>
                 <li className="flex flex-row items-center gap-3 text-light dark:text-white">
                   <MdEmail />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <a href="" className="hover:underline me-4 md:me-6">
                     info@hashimindustry.com
                   </a>
                 </li>
@@ -91,51 +92,66 @@ const Footer = () => {
               <ul className="flex flex-col  text-sm font-medium sm:mb-0 dark:text-white gap-2 pl-1">
                 <li className="flex items-center text-light dark:text-white capitalize gap-3">
                   <TbArrowBadgeRightFilled className="text-light dark:text-white font-bold" />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <Link to="/" className="hover:underline me-4 md:me-6">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-center text-light dark:text-white capitalize gap-3">
                   <TbArrowBadgeRightFilled className="text-light dark:text-white font-bold" />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <Link to="/about-us" className="hover:underline me-4 md:me-6">
                     About The Group
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-center text-light dark:text-white capitalize gap-3">
                   <TbArrowBadgeRightFilled className="text-light dark:text-white font-bold" />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <Link
+                    to="/global-investing"
+                    className="hover:underline me-4 md:me-6"
+                  >
                     Global Investing
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-center text-light dark:text-white capitalize gap-3">
                   <TbArrowBadgeRightFilled className="text-light dark:text-white font-bold" />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <Link
+                    to="/operations"
+                    className="hover:underline me-4 md:me-6"
+                  >
                     Operations
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-center text-light dark:text-white capitalize gap-3">
                   <TbArrowBadgeRightFilled className="text-light dark:text-white font-bold" />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <Link to="/careers" className="hover:underline me-4 md:me-6">
                     Careers
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-center text-light dark:text-white capitalize gap-3">
                   <TbArrowBadgeRightFilled className="text-light dark:text-white font-bold" />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <Link
+                    to="/news-and-events"
+                    className="hover:underline me-4 md:me-6"
+                  >
                     News & Events
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-center text-light dark:text-white capitalize gap-3">
                   <TbArrowBadgeRightFilled className="text-light dark:text-white font-bold" />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <Link
+                    to="/group-directory"
+                    className="hover:underline me-4 md:me-6"
+                  >
                     Group Directory
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-center text-light dark:text-white capitalize gap-3">
                   <TbArrowBadgeRightFilled className="text-light dark:text-white font-bold" />
-                  <a href="#" className="hover:underline me-4 md:me-6">
+                  <Link
+                    to="contact-us"
+                    className="hover:underline me-4 md:me-6"
+                  >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -166,9 +182,12 @@ const Footer = () => {
           <hr className="my-2 border-dark sm:mx-auto dark:border-white lg:my-2" />
           <span className="text-light dark:text-white block text-sm sm:text-center">
             © 2024{" "}
-            <a href="https://hashimindustry.com/" className="hover:underline">
+            <Link
+              href="https://hashimindustry.com/"
+              className="hover:underline"
+            >
               Hashim Industry™
-            </a>
+            </Link>
             . All Rights Reserved.
           </span>
         </div>
