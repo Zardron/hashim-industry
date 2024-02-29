@@ -29,10 +29,12 @@ import {
   BANNER3,
   BANNER11,
   BANNER6,
+  BANNER13,
 } from "./assets/banner/Banner";
 import GlobalInvesting from "./pages/GlobalInvesting";
 import Operations from "./pages/Operations";
 import Careers from "./pages/Careers";
+import NewsAndEvents from "./pages/NewsAndEvents";
 
 const App = () => {
   // Darkmode Config
@@ -109,6 +111,8 @@ const App = () => {
         return <PageBanner LOGO={BANNER11} {...props} />;
       case "/careers":
         return <PageBanner LOGO={BANNER12} {...props} />;
+      case "/news-and-events":
+        return <PageBanner LOGO={BANNER13} {...props} />;
       default:
         return <Banner />;
     }
@@ -125,6 +129,7 @@ const App = () => {
         <Route path="/global-investing" element={<GlobalInvesting />} />
         <Route path="/operations" element={<Operations {...props} />} />
         <Route path="/careers" element={<Careers {...props} />} />
+        <Route path="/news-and-events" element={<NewsAndEvents {...props} />} />
       </Routes>
       <BackToTop />
       <DarkMode {...darkModeProps} />
