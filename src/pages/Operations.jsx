@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { RiArrowRightSLine } from "../assets/Icons";
 import Concept from "../components/operations/Concept";
 import Strategies from "../components/operations/Strategies";
+import GetScreenSize from "../components/GetScreenSize";
+import IsSticky from "../components/IsSticky";
 
 const menu = [
   {
@@ -40,11 +42,18 @@ const Operations = ({ setTitle, setSubtitle }) => {
     setSubtitle(title);
   };
 
+  const screenSize = GetScreenSize();
+  IsSticky();
+
   return (
     <div className="dark:bg-dark px-8 lg:px-0">
       <div className="container mx-auto px-2 flex flex-col lg:flex-row py-10 gap-6">
         <div className="w-full lg:w-[15%]">
-          <div className="border-primary border rounded-md p-4">
+          <div
+            className={`${
+              screenSize.width <= 768 ? "" : "menu-section"
+            } border-primary border rounded-md p-4`}
+          >
             <h1 className="text-primary font-bold text-2xl uppercase pl-1">
               Menu
             </h1>

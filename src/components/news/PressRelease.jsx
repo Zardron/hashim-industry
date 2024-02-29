@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NEWS1 from "../../assets/img/news1.jpg";
 import NEWS2 from "../../assets/img/news2.jpg";
 import NEWS3 from "../../assets/img/news3.jpg";
@@ -28,7 +28,10 @@ const newsData = [
 ];
 
 const PressRelease = () => {
-  window.scroll({ top: 500, left: 0, behavior: "smooth" });
+  useEffect(() => {
+    window.scroll({ top: 500, left: 0, behavior: "smooth" });
+  });
+
   return (
     <div className="bg-white dark:bg-dark">
       <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { RiArrowRightSLine } from "../assets/Icons";
 import History from "../components/about/History";
 import Keyfacts from "../components/about/Keyfacts";
@@ -8,7 +7,8 @@ import Achievements from "../components/about/Achievements";
 import Message from "../components/about/Message";
 import Management from "../components/about/Management";
 import Partners from "../components/about/Partners";
-import ScrollToTop from "../components/ScrollToTop";
+import useScreenSize from "../components/GetScreenSize";
+import isSticky from "../components/IsSticky";
 
 const menu = [
   {
@@ -76,32 +76,21 @@ const About = ({ setTitle, setSubtitle }) => {
     setSubtitle(title);
   };
 
-  // Sticky Menu Area
-  useEffect(() => {
-    window.addEventListener("scroll", isSticky);
-    return () => {
-      window.removeEventListener("scroll", isSticky);
-    };
-  });
+  const screenSize = useScreenSize();
 
-  /* Method that will fix header after a specific scrollable */
-  const isSticky = (e) => {
-    const header = document.querySelector(".menu-section");
-    const scrollTop = window.scrollY;
-    scrollTop >= 450
-      ? header.classList.add("is-sticky")
-      : header.classList.remove("is-sticky");
-  };
+  isSticky();
 
   return (
     <div className="dark:bg-dark px-8">
       <div className="container mx-auto px-2 flex flex-col lg:flex-row py-10 gap-6">
         <div className="w-full lg:w-[15%]">
-          <div className="lg:menu-section border-primary border rounded-md p-4">
-            <h1 className="text-primary font-bold text-2xl uppercase pl-1">
-              Menu
-            </h1>
-
+          <div
+            className={`${
+              screenSize.width <= 768 ? "" : "menu-section"
+            } border-primary border rounded-md p-4`}
+          >
+            <h1 className="text-primary font-bold text-2xl uppercase pl-1"></h1>
+            Menu
             <ul className="mt-4">
               {menu.map((data, key) => (
                 <li className="mb-4 flex items-center" key={key}>

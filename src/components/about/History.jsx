@@ -2,9 +2,13 @@ import Hashim from "../../assets/img/hashim1.jpg";
 import Hashim2 from "../../assets/img/hashim.jpg";
 import Hashim3 from "../../assets/img/hashim2.jpg";
 import SaudiArabia from "../../assets/img/Saudi-Arabia.jpg";
+import { useEffect } from "react";
 
 const History = () => {
-  window.scroll({ top: 500, left: 0, behavior: "smooth" });
+  useEffect(() => {
+    window.scroll({ top: 500, left: 0, behavior: "smooth" });
+  });
+
   return (
     <div className="bg-white dark:bg-dark">
       <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">
