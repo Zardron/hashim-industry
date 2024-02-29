@@ -130,7 +130,7 @@ const App = () => {
       {location === "/" ? <Header /> : <PageHeader darkMode={darkMode} />}
       {banner(location)}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/v5/" element={<Home />} />
         <Route path="/about-us" element={<About {...props} />} />
         <Route path="/global-investing" element={<GlobalInvesting />} />
         <Route path="/operations" element={<Operations {...props} />} />

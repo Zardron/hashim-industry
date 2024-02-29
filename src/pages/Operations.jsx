@@ -51,7 +51,7 @@ const Operations = ({ setTitle, setSubtitle }) => {
         <div className="w-full lg:w-[15%]">
           <div
             className={`${
-              screenSize.width <= 768 ? "" : "menu-section"
+              screenSize.width <= 768 ? "" : "menu-section dark:bg-dark"
             } border-primary border rounded-md p-4`}
           >
             <h1 className="text-primary font-bold text-2xl uppercase pl-1">

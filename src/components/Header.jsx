@@ -5,7 +5,7 @@ const navLink = [
   {
     id: 1,
     title: "Home",
-    link: "/",
+    link: "/v5/",
   },
   {
     id: 2,
@@ -63,7 +63,7 @@ const Header = () => {
                     className={`text-xs cursor-pointer ${
                       location === data.link
                         ? "active"
-                        : "text-white dark:text-dark "
+                        : "text-white dark:text-white"
                     } uppercase font-medium hover:text-[#67c0e9]`}
                   >
                     {data.title}

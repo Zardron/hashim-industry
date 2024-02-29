@@ -32,7 +32,7 @@ const FloatingMenu = () => {
   const menu = [
     {
       id: 1,
-      link: "/",
+      link: "/v5/",
       icon: (
         <TiHomeOutline
           size={32}
@@ -183,12 +183,13 @@ const FloatingMenu = () => {
 
       {/* MOBILE BOTTOM STICKY MENU */}
       <div
-        className={`lg:hidden  flex flex-row justify-around group fixed bottom-0 right-0 left-0 mx-auto bg-white dark:bg-dark border-primary border-t-2 animate__animated animate__flipIn
+        className={`lg:hidden px-4 pt-2 flex flex-row justify-around group fixed bottom-0 right-0 left-0 mx-auto bg-white dark:bg-dark border-primary border-t-2 animate__animated animate__flipIn
         `}
+        style={{ paddingBottom: "10px !important" }}
       >
         {menu.map((data, key) => (
           <div key={key}>
-            <div className={`p-2`}>
+            <div className={`p-2 mb-4`}>
               <Link
                 to={data.link}
                 onMouseEnter={() => setContent(data.title)}

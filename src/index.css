@@ -24,7 +24,7 @@ body {
   width: 12%;
   z-index: 999;
   box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
-  background-color: #ffffff !important;
+  background-color: #ffffff;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding: 12px;
 }

@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect } from "react";
 
 const IsSticky = () => {
@@ -17,7 +18,6 @@ const IsSticky = () => {
       ? header.classList.add("is-sticky")
       : header.classList.remove("is-sticky");
   };
-
   return isSticky;
 };
 
