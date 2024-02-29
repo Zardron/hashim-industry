@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import footer from "./src/assets/img/footer.jpg";
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
@@ -6,10 +8,8 @@ export default {
     backgroundImage: {
       light: "./src/assets/img/logo-b.png",
       dark: "./src/assets/img/logo-w.png",
-      footerLight:
-        "linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./src/assets/img/footer.jpg)",
-      footerDark:
-        "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./src/assets/img/footer.jpg)",
+      footerLight: "linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))",
+      footerDark: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
     },
     colors: {
       transparent: "transparent",

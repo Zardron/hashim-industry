@@ -13,11 +13,21 @@ import {
   TbArrowBadgeRightFilled,
 } from "../assets/Icons";
 import { Link } from "react-router-dom";
+import FOOTER from "../assets/img/footer.jpg";
 
-const Footer = () => {
+const Footer = ({ darkMode }) => {
   return (
     <>
-      <footer className="bg-footerLight dark:bg-footerDark bg-cover lg:bg-contain z-0 w-full shadow dark:bg-gray border-t-primary border-t-2">
+      <footer
+        className="bg-footerLight dark:bg-footerDark bg-cover lg:bg-contain z-0 w-full shadow dark:bg-gray border-t-primary border-t-2"
+        style={{
+          backgroundImage: `${
+            darkMode === "dark"
+              ? `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(${FOOTER})`
+              : `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${FOOTER})`
+          }`,
+        }}
+      >
         <div className="container w-full mx-auto p-2">
           <div className="flex items-center justify-between">
             <Link

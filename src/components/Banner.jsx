@@ -1,32 +1,37 @@
 import Slider from "react-slick";
+import GM from "../assets/img/gulfmaid.jpg";
+import PPIPE from "../assets/img/3p.jpg";
+import GM2 from "../assets/img/gm.jpg";
+import RAWASY from "../assets/img/rawasy.jpg";
+import RAKTHERM from "../assets/img/rakherm.jpg";
 
 const bannerDetails = [
   {
-    src: "url(../src/assets/img/gulfmaid.jpg)",
+    src: GM,
     title: "AGM-Gulfmaid",
     details:
       "Founded in 1963, AGM has grown to more than 90,000 square meters of facilities using state-of-the-art equipment...",
   },
   {
-    src: "url(../src/assets/img/3p.jpg)",
+    src: PPIPE,
     title: "3P Pipe",
     details:
       "3P Gulf Group is one of the leading manufacturers for packaging and piping solutions in Jeddah, Kingdom of Saudi Arabia...",
   },
   {
-    src: "url(../src/assets/img/gm.jpg)",
+    src: GM2,
     title: "Gulf Manufacturers",
     details:
       "Gulf Manufacturers ‘‘GM ‘‘, was established in 2000 in the 6 of October City, Arab Republic of Egypt...",
   },
   {
-    src: "url(../src/assets/img/rawasy.jpg)",
+    src: RAWASY,
     title: "Rawasy Al Khaleej",
     details:
       "We are actively serving Food and Beverage Industries in the Middle East and North African region with a turnover of over $400 mil p.a...",
   },
   {
-    src: "url(../src/assets/img/rakherm.jpg)",
+    src: RAKTHERM,
     title: "RAKtherm",
     details:
       "With over 60 years experience in plastic pipe and fitting manufacturing in Saudi Arabia, Egypt and United Arab Emirates...",
@@ -54,7 +59,7 @@ const Banner = () => {
         <div key={key} className="animate__animated animate__slideInDown">
           <div
             className={` h-[50vh] lg:h-screen bg-cover bg-no-repeat`}
-            style={{ backgroundImage: data.src }}
+            style={{ backgroundImage: `url(${data.src})` }}
           >
             <div className="absolute flex items-center justify-center opacity-65 w-full h-full bg-gray"></div>
             <div className="w-full h-full flex items-center justify-center">
