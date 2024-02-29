@@ -190,7 +190,7 @@ const Footer = ({ darkMode }) => {
             </div>
           </div>
           <hr className="my-2 border-dark sm:mx-auto dark:border-white lg:my-2" />
-          <span className="text-light dark:text-white block text-sm sm:text-center">
+          <span className="text-light dark:text-white block text-sm text-center lg:text-left pb-20 lg:pb-0">
             © 2024{" "}
             <Link
               href="https://hashimindustry.com/"

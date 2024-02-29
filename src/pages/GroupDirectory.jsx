@@ -73,7 +73,7 @@ const GroupDirectory = () => {
           Group Directory
         </h1>
 
-        <div className="grid grid-cols-3 gap-10 pt-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 pt-6">
           {groupDirectoryData.map((data, index) => (
             <div
               key={index}

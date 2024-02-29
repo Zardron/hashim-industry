@@ -64,10 +64,10 @@ const Banner = () => {
             <div className="absolute flex items-center justify-center opacity-65 w-full h-full bg-gray"></div>
             <div className="w-full h-full flex items-center justify-center">
               <div className="inner_wrap w-full mx-10 lg:w-1/3 lg:mx-0">
-                <h1 className="text-4xl lg:text-[40px] font-bold uppercase leading-8 lg:leading-[60px] mt-4 mb-2">
+                <h1 className="text-xl lg:text-[40px] font-bold uppercase leading-8 lg:leading-[60px] mt-4 mb-2">
                   {data.title}
                 </h1>
-                <p className="text-sm text-justify font-normal lg:text-[16px] lg:text-justify">
+                <p className="text-xs text-justify font-normal lg:text-[16px] lg:text-justify">
                   {data.details}
                 </p>
                 <span className="border_btm"></span>
