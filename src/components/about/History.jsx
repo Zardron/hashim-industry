@@ -98,11 +98,11 @@ const History = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="relative h-96 lg:h-auto">
             <img src={SaudiArabia} className="w-full pt-[15px] pl-4" alt="" />
             <img
               src={Hashim2}
-              className="absolute bottom-0 w-60 border-t-8 border-r-8 border-white dark:border-dark"
+              className="absolute bottom-10 lg:bottom-0 lg:w-60 lg:border-t-8 lg:border-r-8 border-white dark:border-dark"
               alt=""
             />
           </div>

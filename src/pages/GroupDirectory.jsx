@@ -92,35 +92,39 @@ const GroupDirectory = () => {
                   <p className="text-md w-1/4 font-semibold dark:text-white">
                     Address:
                   </p>
-                  <p className="text-md w-3/4">{data.address}</p>
+                  <p className="text-md w-3/4 dark:text-white">
+                    {data.address}
+                  </p>
                 </div>
 
                 <div className="pt-2 flex flex-row">
                   <p className="text-md w-1/4 font-semibold dark:text-white">
                     Country:
                   </p>
-                  <p className="text-md w-3/4">{data.country}</p>
+                  <p className="text-md w-3/4 dark:text-white">
+                    {data.country}
+                  </p>
                 </div>
 
                 <div className="pt-2 flex flex-row">
                   <p className="text-md w-1/4 font-semibold dark:text-white">
                     Tel:
                   </p>
-                  <p className="text-md w-3/4">{data.tel}</p>
+                  <p className="text-md w-3/4 dark:text-white">{data.tel}</p>
                 </div>
 
                 <div className="pt-2 flex flex-row">
                   <p className="text-md w-1/4 font-semibold dark:text-white">
                     Fax:
                   </p>
-                  <p className="text-md w-3/4">{data.fax}</p>
+                  <p className="text-md w-3/4 dark:text-white">{data.fax}</p>
                 </div>
 
                 <div className="pt-2 flex flex-row">
                   <p className="text-md w-1/4 font-semibold dark:text-white">
                     Email:
                   </p>
-                  <p className="text-md w-3/4">
+                  <p className="text-md w-3/4 dark:text-white">
                     <a
                       href={`mailto:${data.url}`}
                       target="_blank"
@@ -135,7 +139,7 @@ const GroupDirectory = () => {
                   <p className="text-md w-1/4 font-semibold dark:text-white">
                     Website:
                   </p>
-                  <p className="text-md w-3/4">
+                  <p className="text-md w-3/4 dark:text-white">
                     <a
                       href={`${data.url}`}
                       target="_blank"

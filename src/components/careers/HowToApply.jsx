@@ -12,7 +12,7 @@ const HowToApply = () => {
       </h1>
       <div className="bg-white dark:text-white dark:bg-dark mt-3 animate__animated animate__zoomIn">
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             Job Title:
           </p>
           <select
@@ -35,49 +35,49 @@ const HowToApply = () => {
           </select>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             Name:
           </p>
           <input className="text-sm border border-primary py-1 px-2 rounded-md focus:outline-none text-dark  dark:bg-transparent dark:text-white"></input>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             Education:
           </p>
           <input className="text-sm border border-primary py-1 px-2 rounded-md focus:outline-none text-dark  dark:bg-transparent dark:text-white"></input>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             Interested Field:
           </p>
           <input className="text-sm border border-primary py-1 px-2 rounded-md focus:outline-none text-dark  dark:bg-transparent dark:text-white"></input>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             Date of Birth:
           </p>
           <input className="text-sm border border-primary py-1 px-2 rounded-md focus:outline-none text-dark  dark:bg-transparent dark:text-white"></input>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             Nationality:
           </p>
           <input className="text-sm border border-primary py-1 px-2 rounded-md focus:outline-none text-dark  dark:bg-transparent dark:text-white"></input>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             Language Known:
           </p>
           <input className="text-sm border border-primary py-1 px-2 rounded-md focus:outline-none text-dark  dark:bg-transparent dark:text-white"></input>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             Previous Experience (if any):
           </p>
           <input className="text-sm border border-primary py-1 px-2 rounded-md focus:outline-none text-dark  dark:bg-transparent dark:text-white"></input>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             Achievements (if any):
           </p>
           <input
@@ -87,7 +87,7 @@ const HowToApply = () => {
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-3 my-2">
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-medium pt-1">
+          <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px]  leading-6 normal-case leading font-medium pt-1">
             &nbsp;
           </p>
           <button className="bg-primary hover:bg-white dark:hover:bg-primary dark:hover:border-white hover:text-dark text-sm border border-primary py-1 px-2 rounded-md focus:outline-none text-white  dark:bg-transparent dark:text-white">

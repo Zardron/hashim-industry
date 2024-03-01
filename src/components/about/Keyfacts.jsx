@@ -132,13 +132,14 @@ const Keyfacts = () => {
           </li>
         </ul>
 
-        <div className="flex flex-row items-center justify-center mt-4">
+        <div className="flex flex-col gap-4 lg:flex-row items-center justify-center mt-4">
           <img
             src="https://hashimindustry.com/v2/img/gr3.jpg"
             alt=""
             data-aos="fade-right"
             data-aos-delay="100"
             data-aos-duration="1000"
+            className="w-[400px] h-80 bg-white p-2 rounded-lg"
           />
           <img
             src="https://hashimindustry.com/v2/img/gr2.jpg"
@@ -146,6 +147,7 @@ const Keyfacts = () => {
             data-aos="fade-left"
             data-aos-delay="100"
             data-aos-duration="1000"
+            className="w-[400px] h-80 bg-white p-2 rounded-lg"
           />
         </div>
 

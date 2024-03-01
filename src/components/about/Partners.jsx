@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import PARTNER_LOGO1 from "../../assets/img/Partners-logo1.jpg";
 import PARTNER_LOGO2 from "../../assets/img/Partners-logo2.jpg";
 import PARTNER_LOGO3 from "../../assets/img/Partners-logo3.jpg";
@@ -98,9 +98,12 @@ const Partners = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-4">
         {partners.map((data, index) => (
-          <div key={index}>
+          <div
+            key={index}
+            className=" hover:scale-105 transition-all ease-in-out duration-300"
+          >
             <div
               className="w-full flex flex-col items-center"
               data-aos="flip-right"
