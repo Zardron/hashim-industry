@@ -75,7 +75,7 @@ const Careers = ({ setTitle, setSubtitle }) => {
           <div
             className={`${
               screenSize.width <= 768 ? "" : "menu-section dark:bg-dark"
-            } border-primary border rounded-md p-4`}
+            } border-primary border rounded-md p-4 shadow-3d`}
           >
             <h1 className="text-primary font-bold text-2xl uppercase pl-1">
               Menu
@@ -99,7 +99,7 @@ const Careers = ({ setTitle, setSubtitle }) => {
           </div>
         </div>
         <div className="w-full lg:w-[85%]">
-          <div className="border-primary border rounded-md p-4">
+          <div className="border-primary border rounded-md p-4 shadow-3d">
             <h1 className="text-primary font-bold text-2xl uppercase">
               {render(renderComponent)}
             </h1>

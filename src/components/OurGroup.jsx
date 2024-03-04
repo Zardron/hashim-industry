@@ -48,9 +48,9 @@ const OurGroup = () => {
     <div className="container mx-auto px-8 lg:px:0">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 p-4 lg:p-0">
         {ourGroupData.map((data, key) => (
-          <div className="hover:scale-105 transition-all ease-linear duration-200 ">
+          <div className="rounded-lg hover:scale-105 transition-all ease-linear duration-200 ">
             <div
-              className="border-primary border-2 rounded-lg shadow-md shadow-secondary transition-all ease-in-out duration-300"
+              className="bg-white dark:bg-dark border-primary border-2 rounded-lg shadow-3d dark:shadow-3d-dark transition-all ease-in-out duration-300"
               key={key}
               data-aos="flip-right"
               data-aos-delay={data.id}

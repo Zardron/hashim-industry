@@ -98,14 +98,14 @@ const Partners = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-4 pb-4">
         {partners.map((data, index) => (
           <div
             key={index}
             className=" hover:scale-105 transition-all ease-in-out duration-300"
           >
             <div
-              className="w-full flex flex-col items-center"
+              className="w-full flex flex-col items-center shadow-3d"
               data-aos="flip-right"
               data-aos-delay={data.id}
               data-aos-duration="1000"
@@ -113,9 +113,9 @@ const Partners = () => {
               <img
                 src={data.imgSrc}
                 alt=""
-                className="w-full bg-primary border-2 border-primary border-l-2 border-r-2 border-t-2 rounded-tr-md rounded-tl-md p-10"
+                className="w-full bg-primary border-2 border-primary  rounded-tl-md p-10"
               />
-              <div className="w-full border-l-2 border-r-2 border-b-2 border-primary rounded-b-md">
+              <div className="w-full border-l-2 border-r-2 border-b-2 border-primary ">
                 <div className="text-center py-2">{data.title}</div>
                 <div
                   className={`overflow-hidden transition-[max-height] ease-linear duration-300 ${

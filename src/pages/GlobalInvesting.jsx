@@ -176,7 +176,7 @@ const GlobalInvesting = () => {
           our growing client base.
         </p>
 
-        <div className="w-full rounded-lg border bg-primary border-primary mt-4">
+        <div className="w-full rounded-lg border bg-primary border-primary mt-4 shadow-3d">
           {globalInvestingData.map((data, index) => (
             <div className="bg-primary rounded-lg">
               <div

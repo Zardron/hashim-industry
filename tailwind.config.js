@@ -10,7 +10,11 @@ export default {
       dark: "./src/assets/img/logo-w.png",
       footerLight: "linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))",
       footerDark: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
+      gradientLight:
+        "linear-gradient(360deg, #0581bcc7, #e0fcff 50%, #0581bcc7)",
+      gradientDark: "linear-gradient(360deg, #040d12, #313131 50%, #040d12)",
     },
+
     colors: {
       transparent: "transparent",
       white: "#ffffff",
@@ -21,6 +25,7 @@ export default {
       dark: "#040D12",
       gray: "#030712",
       offGray: "#dbdbdb",
+      shadow: "#999",
     },
     screens: {
       sm: "640px",

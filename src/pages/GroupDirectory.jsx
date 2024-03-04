@@ -80,7 +80,7 @@ const GroupDirectory = () => {
               className="hover:scale-105 transition-all ease-in-out duration-300 "
             >
               <div
-                className="border border-primary rounded-md shadow-lg p-4"
+                className="border border-primary rounded-md shadow-3d p-4"
                 data-aos="flip-right"
                 data-aos-delay={data.id}
                 data-aos-duration="1000"

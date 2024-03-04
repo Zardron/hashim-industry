@@ -20,12 +20,12 @@ const Milestone = () => {
       <div className="bg-white dark:bg-dark dark:text-white mt-2 pt-1">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0">
           <div
-            className="relative flex flex-row items-center"
+            className="relative flex flex-row items-center shadow-3d m-1"
             data-aos="fade-right"
             data-aos-delay="300"
             data-aos-duration="1000"
           >
-            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tl-lg lg:rounded-bl-lg">
+            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tl-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
                   <img src="https://hashimindustry.com/images/gm.jpg" alt="" />
@@ -47,7 +47,7 @@ const Milestone = () => {
 
           <div className="hidden lg:block"></div>
           <div
-            className="relative flex flex-row items-center"
+            className="relative flex flex-row items-center shadow-3ds m-1"
             data-aos="fade-left"
             data-aos-delay="600"
             data-aos-duration="1000"
@@ -55,7 +55,7 @@ const Milestone = () => {
             <div className="h-full flex items-center text-base lg:text-2xl text-white bg-primary px-4">
               1992
             </div>
-            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tr-lg lg:rounded-br-lg">
+            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tr-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
                   <img src="https://hashimindustry.com/images/3p.jpg" alt="" />
@@ -71,12 +71,12 @@ const Milestone = () => {
           </div>
 
           <div
-            className="relative flex flex-row items-center"
+            className="relative flex flex-row items-center shadow-3d m-1"
             data-aos="fade-right"
             data-aos-delay="300"
             data-aos-duration="1000"
           >
-            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tl-lg lg:rounded-bl-lg">
+            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tl-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
                   <img src="https://hashimindustry.com/images/gmb.jpg" alt="" />
@@ -99,7 +99,7 @@ const Milestone = () => {
 
           <div className="hidden lg:block"></div>
           <div
-            className="relative flex flex-row items-center"
+            className="relative flex flex-row items-center shadow-3ds m-1"
             data-aos="fade-left"
             data-aos-delay="450"
             data-aos-duration="1000"
@@ -107,7 +107,7 @@ const Milestone = () => {
             <div className="h-full flex items-center text-base lg:text-2xl text-white bg-primary px-4">
               2000
             </div>
-            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tr-lg lg:rounded-br-lg">
+            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tr-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
                   <img src="https://hashimindustry.com/images/gmb.jpg" alt="" />
@@ -123,12 +123,12 @@ const Milestone = () => {
           </div>
 
           <div
-            className="relative flex flex-row items-center"
+            className="relative flex flex-row items-center shadow-3d m-1"
             data-aos="fade-right"
             data-aos-delay="600"
             data-aos-duration="1000"
           >
-            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tl-lg lg:rounded-bl-lg">
+            <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tl-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
                   <img src="https://hashimindustry.com/images/rak.jpg" alt="" />
