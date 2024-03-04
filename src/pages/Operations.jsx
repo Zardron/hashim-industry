@@ -27,7 +27,7 @@ const Operations = ({ setTitle, setSubtitle }) => {
       case "strategies":
         return <Strategies />;
       default:
-        return <Strategies />;
+        return <Concept />;
     }
   };
 

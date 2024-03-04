@@ -48,31 +48,33 @@ const OurGroup = () => {
     <div className="container mx-auto px-8 lg:px:0">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 p-4 lg:p-0">
         {ourGroupData.map((data, key) => (
-          <div
-            className="border-primary border-2 rounded-lg shadow-md shadow-secondary transition-all ease-in-out duration-300"
-            key={key}
-            data-aos="flip-right"
-            data-aos-delay={data.id}
-            data-aos-duration="1000"
-          >
-            <div className="flex items-center justify-center bg-white rounded-t-lg border-b-secondary border-b py-4">
-              <img src={data.imgSrc} alt="" className="h-14" />
-            </div>
-            <div className="m-4 bg-white dark:bg-dark rounded-b-lg">
-              <h1 className="text-center text-primary font-bold mb-4">
-                {data.title}
-              </h1>
-              <p className="text-justify tracking-tighter dark:text-white text-sm">
-                {data.desc}
-              </p>
-            </div>
-            <div className="flex items-center justify-center mt-4 mb-4">
-              <a
-                href=""
-                className="bg-primary text-white px-4 py-2 rounded-md border-2 border-light hover:bg-white hover:text-primary hover:border-primary"
-              >
-                Read More
-              </a>
+          <div className="hover:scale-105 transition-all ease-linear duration-200 ">
+            <div
+              className="border-primary border-2 rounded-lg shadow-md shadow-secondary transition-all ease-in-out duration-300"
+              key={key}
+              data-aos="flip-right"
+              data-aos-delay={data.id}
+              data-aos-duration="1000"
+            >
+              <div className="flex items-center justify-center bg-white rounded-t-lg border-b-secondary border-b py-4">
+                <img src={data.imgSrc} alt="" className="h-14" />
+              </div>
+              <div className="m-4 bg-white dark:bg-dark rounded-b-lg">
+                <h1 className="text-center text-primary font-bold mb-4">
+                  {data.title}
+                </h1>
+                <p className="text-justify tracking-tighter dark:text-white text-sm">
+                  {data.desc}
+                </p>
+              </div>
+              <div className="flex items-center justify-center mt-4 mb-4">
+                <a
+                  href=""
+                  className="bg-primary text-white px-4 py-2 rounded-md border-2 border-light hover:bg-white hover:text-primary hover:border-primary"
+                >
+                  Read More
+                </a>
+              </div>
             </div>
           </div>
         ))}

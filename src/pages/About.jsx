@@ -9,6 +9,7 @@ import Management from "../components/about/Management";
 import Partners from "../components/about/Partners";
 import useScreenSize from "../components/GetScreenSize";
 import isSticky from "../components/IsSticky";
+import { useLocation } from "react-router-dom";
 
 const menu = [
   {
@@ -41,8 +42,19 @@ const menu = [
   },
 ];
 
-const About = ({ setTitle, setSubtitle }) => {
+const About = ({ title, subTitle, setTitle, setSubtitle }) => {
   const [renderComponent, setRenderComponent] = useState("history");
+  const { state } = useLocation();
+
+  console.log(state);
+
+  useEffect(() => {
+    if (state === undefined || state === null) {
+      setRenderComponent("history");
+    } else {
+      setRenderComponent(state?.props);
+    }
+  }, [state]);
 
   const render = (component) => {
     switch (component) {
@@ -73,8 +85,10 @@ const About = ({ setTitle, setSubtitle }) => {
   const handleRender = (title) => {
     setRenderComponent(title);
     setTitle("About The Group");
-    setSubtitle(title);
+    setSubtitle(subTitle);
   };
+
+  console.log(subTitle);
 
   const screenSize = useScreenSize();
 
