@@ -277,7 +277,7 @@ const Home = ({ darkMode }) => {
               <div className="or or--x text-primary text-[15px] lg:text-[30px] font-bold  mx-auto">
                 <span className="text-white">Our Group</span>
               </div>
-              <p className="dark:text-white">
+              <p className="dark:text-white text-sm lg:text-base">
                 We have built our business model from the ground up to ensure
                 that we have the capabilities required to successfully deliver
                 our services to our growing client base.
@@ -295,7 +295,7 @@ const Home = ({ darkMode }) => {
               NEWS & EVENTS
             </p>
 
-            <div className="flex flex-col lg:flex-row gap-4 my-4  h-[480px]">
+            <div className="flex flex-col lg:flex-row gap-4 my-4  lg:h-[480px]">
               <div
                 className="border-primary border rounded-md p-4 w-full lg:w-3/4 shadow-md shadow-3d"
                 data-aos="fade-right"

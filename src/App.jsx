@@ -132,10 +132,10 @@ const App = () => {
 
   return (
     <>
-      {location === "/" ? <Header /> : <PageHeader darkMode={darkMode} />}
+      {location === "/v5/" ? <Header /> : <PageHeader darkMode={darkMode} />}
       {banner(location)}
       <Routes>
-        <Route path="/" element={<Home darkMode={darkMode} />} />
+        <Route path="/v5/" element={<Home darkMode={darkMode} />} />
         <Route path="/about-us" element={<About {...props} />} />
         <Route path="/global-investing" element={<GlobalInvesting />} />
         <Route path="/operations" element={<Operations {...props} />} />
