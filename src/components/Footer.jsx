@@ -102,7 +102,7 @@ const Footer = ({ darkMode }) => {
               <ul className="flex flex-col  text-sm font-medium sm:mb-0 dark:text-white gap-2 pl-1">
                 <li className="flex items-center text-light dark:text-white capitalize gap-3">
                   <TbArrowBadgeRightFilled className="text-light dark:text-white font-bold" />
-                  <Link to=""/"" className="hover:underline me-4 md:me-6">
+                  <Link to="/" className="hover:underline me-4 md:me-6">
                     Home
                   </Link>
                 </li>
