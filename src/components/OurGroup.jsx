@@ -3,7 +3,8 @@ import LOGO1 from "../assets/img/logo1.png";
 import LOGO2 from "../assets/img/logo2-1.png";
 import LOGO3 from "../assets/img/logo3.png";
 import LOGO4 from "../assets/img/logo3.png";
-import LOGO5 from "../assets/img/logo5.png";
+import LOGO5 from "../assets/banner/rak-logo.png";
+import { Link } from "react-router-dom";
 
 const ourGroupData = [
   {
@@ -68,12 +69,12 @@ const OurGroup = () => {
                 </p>
               </div>
               <div className="flex items-center justify-center mt-4 mb-4">
-                <a
-                  href=""
+                <Link
+                  to="/global-investing"
                   className="bg-primary text-white px-4 py-2 rounded-md border-2 border-light hover:bg-white hover:text-primary hover:border-primary"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

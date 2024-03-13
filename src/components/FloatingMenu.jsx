@@ -32,12 +32,12 @@ const FloatingMenu = () => {
   const menu = [
     {
       id: 1,
-      link: "/v5/",
+      link: "" / "",
       icon: (
         <TiHomeOutline
           size={32}
           className={`${
-            location === "/" ? "text-primary" : "text-dark dark:text-white"
+            location === "" / "" ? "text-primary" : "text-dark dark:text-white"
           } hover:text-primary dark:hover:text-primary cursor-pointer outline-none`}
         />
       ),

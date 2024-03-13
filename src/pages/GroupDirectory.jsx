@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import LOGO1 from "../assets/img/logo1.png";
 import LOGO2 from "../assets/img/logo2-1.png";
 import LOGO3 from "../assets/img/logo3.png";
-import LOGO5 from "../assets/img/logo5.png";
+import LOGO5 from "../assets/banner/rak-logo.png";
 
 const groupDirectoryData = [
   {
@@ -86,7 +86,7 @@ const GroupDirectory = () => {
                 data-aos-duration="1000"
               >
                 <div className="flex items-center mb-3 w-full bg-white">
-                  <img src={data.imgSrc} alt="" className="h-30" />
+                  <img src={data.imgSrc} alt="" className="h-30 w-[156px]" />
                 </div>
                 <div className="pt-2 border-t-offGray border-t flex flex-row">
                   <p className="text-md w-1/4 font-semibold dark:text-white">

@@ -8,7 +8,7 @@ import {
 import LOGO1 from "../assets/img/logo1.png";
 import LOGO2 from "../assets/img/logo2-1.png";
 import LOGO3 from "../assets/img/logo3.png";
-import LOGO5 from "../assets/img/logo5.png";
+import LOGO5 from "../assets/banner/rak-logo.png";
 
 import PRODUCT1 from "../assets/img/logo1p.png";
 import PRODUCT2 from "../assets/img/logo2p.png";
@@ -176,7 +176,7 @@ const GlobalInvesting = () => {
           our growing client base.
         </p>
 
-        <div className="w-full rounded-lg border bg-primary border-primary mt-4 shadow-3d">
+        <div className="w-full rounded-lg border bg-primary border-primary mt-4 shadow-3d animate__animated animate__zoomIn">
           {globalInvestingData.map((data, index) => (
             <div className="bg-primary rounded-lg">
               <div

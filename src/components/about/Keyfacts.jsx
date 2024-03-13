@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import RAK from "../../assets/banner/rak-logo.png";
 const Keyfacts = () => {
   useEffect(() => {
     window.scroll({ top: 500, left: 0, behavior: "smooth" });
@@ -49,29 +49,25 @@ const Keyfacts = () => {
             <div className="flex flex-wrap gap-2">
               <img
                 src="https://hashimindustry.com/v2/img/3p.jpg"
-                className="w-[135px] lg:w-auto"
+                className="w-[135px] lg:w-[150px]"
                 alt=""
               />
               <img
                 src="https://hashimindustry.com/v2/img/gm.jpg"
-                className="w-[135px] lg:w-auto"
+                className="w-[135px] lg:w-[150px]"
                 alt=""
               />
               <img
                 src="https://hashimindustry.com/v2/img/gmb2.jpg"
-                className="w-[135px] lg:w-auto"
+                className="w-[135px] lg:w-[150px]"
                 alt=""
               />
               <img
                 src="https://hashimindustry.com/v2/img/gmb3.jpg"
-                className="w-[135px] lg:w-auto"
+                className="w-[135px] lg:w-[150px]"
                 alt=""
               />
-              <img
-                src="https://hashimindustry.com/v2/img/rak.jpg"
-                className="w-[135px] lg:w-auto"
-                alt=""
-              />
+              <img src={RAK} className="w-[135px] lg:w-[150px]" alt="" />
             </div>
           </div>
         </div>

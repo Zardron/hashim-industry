@@ -1,4 +1,8 @@
 import React, { useEffect } from "react";
+import RAK from "../../assets/banner/rak-logo.png";
+import GULFMAID from "../../assets/img/logo1.png";
+import PIPE from "../../assets/img/logo2-1.png";
+import GM from "../../assets/img/logo3.png";
 
 const Milestone = () => {
   useEffect(() => {
@@ -28,7 +32,7 @@ const Milestone = () => {
             <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tl-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
-                  <img src="https://hashimindustry.com/images/gm.jpg" alt="" />
+                  <img src={GULFMAID} alt="" className="w-[156px]" />
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">AGM- GULFMAID</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
@@ -58,7 +62,7 @@ const Milestone = () => {
             <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tr-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
-                  <img src="https://hashimindustry.com/images/3p.jpg" alt="" />
+                  <img src={PIPE} alt="" className="w-[156px]" />
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">3P PIPE</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
@@ -79,7 +83,7 @@ const Milestone = () => {
             <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tl-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
-                  <img src="https://hashimindustry.com/images/gmb.jpg" alt="" />
+                  <img src={GM} alt="" className="w-[156px]" />
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">RAWASY AL KHALEEJ</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
@@ -110,7 +114,7 @@ const Milestone = () => {
             <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tr-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
-                  <img src="https://hashimindustry.com/images/gmb.jpg" alt="" />
+                  <img src={GM} alt="" className="w-[156px]" />
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">GULF MANUFACTURER</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
@@ -131,7 +135,7 @@ const Milestone = () => {
             <div className=" bg-white dark:bg-dark border-primary border-4 p-2 w-full lg:rounded-tl-lg">
               <div className="flex flex-col items-center justify-center">
                 <div className="w-full bg-white flex items-center justify-center p-2">
-                  <img src="https://hashimindustry.com/images/rak.jpg" alt="" />
+                  <img src={RAK} alt="" className="w-[156px]" />
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">RAKTHERM</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
