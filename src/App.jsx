@@ -102,7 +102,7 @@ const App = () => {
   // Dynamic Page Banner Rendering
   const banner = (location) => {
     switch (location) {
-      case "/v7":
+      case "/v7/":
         return <Banner />;
       case "/about-us":
         return <PageBanner LOGO={bannerImg} {...props} />;
@@ -132,10 +132,10 @@ const App = () => {
 
   return (
     <>
-      {location === "/v7" ? <Header /> : <PageHeader darkMode={darkMode} />}
+      {location === "/v7/" ? <Header /> : <PageHeader darkMode={darkMode} />}
       {banner(location)}
       <Routes>
-        <Route path="/v7" element={<Home darkMode={darkMode} />} />
+        <Route path="/v7/" element={<Home darkMode={darkMode} />} />
         <Route path="/about-us" element={<About {...props} />} />
         <Route path="/global-investing" element={<GlobalInvesting />} />
         <Route path="/operations" element={<Operations {...props} />} />

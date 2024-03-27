@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   plugins: [react()],
   base: "https://hashimindustry.com/v7/",
-  // base: "/v7",
+  // base: "/v7/",
 });

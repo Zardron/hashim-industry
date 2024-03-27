@@ -96,7 +96,7 @@ const GlobalInvesting = () => {
       trigger: rak,
       imgSrc: LOGO5,
       profile:
-        "With over 60 years experience in plastic pipe and fitting manufacturing in Saudi Arabia, Egypt and United Arab Emirates, RAKtherm has launched its first integrated PP-R and PEX pipes & fittings system for servicing a booming construction sector worldwide and in Middle East, in particular, under the same trade name.",
+        "PP-R and PEX pipes & fitting systems were introduced, significantly boosting the group's pipe production capacity. This expansion also signaled the group's entry into the construction industry. Additionally, the company diversified its offerings to include UPVC, RAK Duct electrical and conduit wiring systems, fire and gas piping systems, concealed cisterns, silicone sealants, and plumbing accessories.",
       url: "https://www.raktherm.com/",
       product: [
         "PPR & PEX Piping System",
@@ -198,7 +198,7 @@ const GlobalInvesting = () => {
               </div>
               <div
                 className={`bg-white dark:bg-dark ${
-                  data.trigger ? "max-h-[1000px] lg:max-h-60" : "max-h-0"
+                  data.trigger ? "max-h-[1000px] lg:max-h-72" : "max-h-0"
                 } overflow-hidden transition-[max-height] ease-linear duration-300 rounded-b-lg`}
               >
                 <div className="flex flex-col lg:flex-row justify-around gap-10 mb-4 overflow-hidden transition-all ease duration-500 p-4">

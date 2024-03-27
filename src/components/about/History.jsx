@@ -17,12 +17,11 @@ const History = () => {
           </p>
         </div>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-          The initial years were not a bed of roses. The group began as a
-          company that made flipflops (footwear) and water cups for the pilgrim.
-          As the group grew in size and capacity, it expanded the portfolio to
-          other industries, notably industrial materials industry, and real
-          estate. The group witnessed great success in these segments and began
-          exporting plastics to European countries.
+          As Hashim Industry approaches its golden jubilee milestone/fiftieth
+          anniversary, we reflect profoundly on our global presence and
+          unwavering achievement. Hashim Industry stands at the pinnacle of its
+          achievements, with all our affiliated companies under the Hashim
+          Industry umbrella excelling in their respective domains.
         </p>
 
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
