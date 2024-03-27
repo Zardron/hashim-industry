@@ -39,7 +39,7 @@ const ourGroupData = [
     id: "1000",
     imgSrc: LOGO5,
     title: "RAKTHERM",
-    desc: "With over 60 years experience in plastic pipe and fitting manufacturing in Saudi Arabia, Egypt and United Arab Emirates, RAKtherm has launched...",
+    desc: "PP-R and PEX pipes & fitting systems were introduced, significantly boosting the group's pipe production capacity....",
     link: "",
   },
 ];
