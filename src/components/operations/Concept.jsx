@@ -22,9 +22,7 @@ const Concept = () => {
             </li>
             <li className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal flex flex-row">
               <span className="text-lg font-bold pr-1">»</span>
-              <span className="mt-1">
-                Cost-effective energy and labor resources
-              </span>
+              <span className="mt-1">Leveraging economies of scale</span>
             </li>
             <li className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal flex flex-row">
               <span className="text-lg font-bold pr-1">»</span>

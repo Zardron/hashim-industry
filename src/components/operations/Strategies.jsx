@@ -7,7 +7,9 @@ const Strategies = () => {
         Strategies
       </h1>
       <div className="bg-white dark:text-white dark:bg-dark mt-3 animate__animated animate__zoomIn">
-        <p className="text-lg dark:text-primary">Strategic Initiatives</p>
+        <p className="text-lg dark:text-primary normal-case">
+          Strategic Initiatives
+        </p>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
           Hashim Industry is dedicated to realizing its vision of becoming a
           prominent global market leader within its industry. Our focus lies in
@@ -26,7 +28,7 @@ const Strategies = () => {
 
         <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
           <p className="text-lg dark:text-primary pt-4 normal-case">
-            GROWTH STRATEGY
+            Growth Strategy
           </p>
           <ol className="pl-8 list-decimal">
             <li className="text-dark dark:text-white text-[16px] leading-6 normal-case leading font-normal">

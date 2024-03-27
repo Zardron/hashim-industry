@@ -47,7 +47,7 @@ const Career = ({ setRenderComponent }) => {
         </p>
 
         <p className="text-lg dark:text-primary capitalize pt-3">
-          Corporate Responsibilities:
+          Corporate Commitments
         </p>
 
         <div className="flex flex-row justify-between gap-4">
