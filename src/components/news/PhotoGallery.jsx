@@ -1,10 +1,6 @@
 import React, { useEffect } from "react";
 
 const PhotoGallery = () => {
-  useEffect(() => {
-    window.scroll({ top: 500, left: 0, behavior: "smooth" });
-  });
-
   return (
     <div>
       Photo Gallery

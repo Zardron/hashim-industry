@@ -1,70 +1,67 @@
 import React, { useEffect } from "react";
 
 const Achievements = () => {
-  useEffect(() => {
-    window.scroll({ top: 500, left: 0, behavior: "smooth" });
-  });
-
   return (
     <div className="bg-white dark:bg-dark">
       <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">
         Achievements
       </h1>
       <div className="bg-white dark:text-white dark:bg-dark mt-3 animate__animated animate__zoomIn">
-        <p className="text-lg dark:text-primary">
-          Proud March Towards Completing 60 Years!
+        <p className="text-lg dark:text-primary normal-case">
+          Honoring a Legacy of Excellence Over 60 Years!
         </p>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-          When the Hashem Group started its first operations in 1963, some had
-          their doubts, but the founder, with the help of his well-wishers and
-          grace of the almighty have overcome all challenges and established
-          itself as a reputed name in the international plastics converting
-          industry. It has not been the easiest of tasks, but the group today is
-          strongly poised to extend it success story and lead the baton of
-          sustainable and eco-friendly plastics in the years to come.
+          In 1963, when the Hashim Group commenced its inaugural journey,
+          skepticism abounded. However, through the determination of its
+          founder, bolstered by the support of well-wishers and guided by divine
+          providence, the group has overcome myriad challenges to emerge as a
+          distinguished entity in the global plastics converting industry. The
+          path has been arduous, yet today, the group stands poised to continue
+          its legacy of success, carrying forward the torch of sustainable and
+          environmentally conscious plastics for the future.
         </p>
 
-        <p className="text-lg dark:text-primary pt-4">
-          Securing Steady Supply of Plastics
+        <p className="text-lg dark:text-primary normal-case pt-4">
+          Bolstering a Continuous Plastic Supply
         </p>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-          In order to meet the demands of some of the biggest companies in the
-          world, we had to revamp and realign our process several times, and we
-          have succeeded in standing up to the occasion every time. Today, we
-          are in over 43 country and our strong workforce of 2300 talented
-          employees work hard to maintain our high standards of products and
-          services, as well as to secure a steady and reliable supply of
-          plastics.
+          To meet the demands of multinational corporations, we've continuously
+          refined and restructured our operations, consistently rising to the
+          occasion. Today, our presence spans over 43 countries, driven by a
+          dedicated workforce of 2300 skilled professionals. They diligently
+          maintain our exacting standards, guaranteeing the provision of premium
+          products and services while securing a steadfast and reliable supply
+          of plastics.
         </p>
 
-        <p className="text-lg dark:text-primary pt-4">
-          Creating Benchmarks in Piping Systems
+        <p className="text-lg dark:text-primary normal-case pt-4">
+          Setting The High Bar In Piping Solutions
         </p>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-          International investments in Saudi Arabia in the real estate segment
-          made it one of the busiest places in the Middle East for builders and
-          real estate magnates. The burgeoning demands for construction and
-          sanitary pipes had to be met and we were ready to take up that
-          challenge. With the inception of GM in the 6th of October City, our
-          group entered the construction market and today we have created a
-          benchmark with our products. Furthermore, we hope to be actively
-          involved in this industry and be ready to meet the ever increasing
-          global need for water, gas and sewage pipes.
+          With Saudi Arabia emerging as a hotbed for real estate investments,
+          attracting a wave of builders and real estate developers from around
+          the globe, the demand for construction and sanitary pipes skyrocketed.
+          Rising to meet this challenge, our group embraced this challenge
+          head-on. Our group ventured into the construction market with the
+          establishment of GM in the 6th of October City. Since then, we have
+          set the benchmark for excellence with our state-of-the-art products.
+          Looking ahead, we are committed to furthering our presence in this
+          industry, ready to address the ever-growing global need for
+          high-quality water, gas, and sewage piping solutions.
         </p>
 
-        <p className="text-lg dark:text-primary pt-4">
-          Sustainable Development
+        <p className="text-lg dark:text-primary normal-case pt-4">
+          Advocating Sustainable Initiatives
         </p>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-          In the view of many environmentalists, the production of plastics
-          should be done in a manner that causes least harm to the environment.
-          Hashem Group is deeply aware of its responsibility towards the
-          environment and has taken concrete steps in order to develop a
-          sustainable future. We invest generously on research related
-          activities that are aimed at reducing plastics and reusing them
-          sensibly. International laws and guidelines that govern the production
-          and use of plastics has guided us in the matter and helped us stay
-          close to our corporate goals of creating a sustainable future.
+          Recognizing the imperative of environmental stewardship, the Hashim
+          Group is committed to minimizing its ecological footprint and
+          fostering sustainable development. We allocate substantial resources
+          towards research initiatives focused on minimizing plastic usage and
+          promoting responsible recycling practices. Our adherence to
+          international regulations and standards governing plastic production
+          and utilization underscores our dedication to realizing our corporate
+          vision of a sustainable future.
         </p>
       </div>
     </div>

@@ -5,203 +5,167 @@ import SaudiArabia from "../../assets/img/Saudi-Arabia.jpg";
 import { useEffect } from "react";
 
 const History = () => {
-  useEffect(() => {
-    window.scroll({ top: 500, left: 0, behavior: "smooth" });
-  });
-
   return (
     <div className="bg-white dark:bg-dark">
       <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">
         history
       </h1>
       <div className="bg-white dark:text-white dark:bg-dark mt-3 animate__animated animate__zoomIn">
-        <div className="flex flex-col lg:flex-row gap-4 mb-4 lg:mb-1">
-          <div className="full flex items-center justify-center lg:w-[20%]">
-            <img
-              src={Hashim}
-              alt=""
-              className="w-1/2 lg:w-full bg-white border-offGray border-4 py-2 rounded-lg"
-            />
-          </div>
-          <div className="w-full lg:w-[80%]">
-            <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal mb-3">
-              Hashim Industry is proudly marching towards its golden jubilee
-              after successfully making its mark all over the globe. Today,
-              Hashim Industry has is at the peak of its glory with its entire
-              sister concerns performing to the best of their ability.
-            </p>
-            <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal">
-              Under the visionary leadership, the Hashim Industry, the famous
-              international entrepreneur, has grown rapidly since the day it was
-              founded. Fifty years from today, the group began on its
-              illustrious journey when the foundation of the Arabian Gulf
-              Manufacturers was laid by Mr.Hashim Hashim. AGM has since become a
-              name to be reckoned with in the high-technology plastic
-              manufacturing industry and has inspired many others to follow on
-              the footsteps of the accomplished leader.
-            </p>
-          </div>
+        <div className="mt-4 ">
+          <p className="text-lg dark:text-primary normal-case">
+            Corporate Overview of Hashim Industry Group
+          </p>
         </div>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-          Hashim Industry had to persevere and stay true to the dream of
-          bringing Saudi Arabia on the world map of advanced plastics
-          engineering. Overcoming deep hurdles, Mr.Hashim conquered the steepest
-          of hurdles and his success is evident in the group's presence all over
-          the globe. Headquartered in Jeddah, Saudi Arabia, the group has
-          concerns not just in Middle East, but also in Europe, Africa and Asia.
+          The initial years were not a bed of roses. The group began as a
+          company that made flipflops (footwear) and water cups for the pilgrim.
+          As the group grew in size and capacity, it expanded the portfolio to
+          other industries, notably industrial materials industry, and real
+          estate. The group witnessed great success in these segments and began
+          exporting plastics to European countries.
+        </p>
+
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          Guided by vision-driven leadership and forward-thinking management,
+          Hashim Industry Group, under the exemplary governance of Mr. Ali
+          Hashim, has witnessed exponential growth since its inception. Six
+          decades ago, Arabian Gulf Manufacturers (AGM) was established, marking
+          the beginning of a distinguished and notable period in the history of
+          Hashim Industry.AGM has since emerged as a formidable force in
+          high-technology plastic manufacturing, inspiring numerous others in
+          the industry.
+        </p>
+
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          Our success is indebted to the astute business acumen of our
+          management team, whose expertise has propelled Hashim Industry to
+          prominence not only in Saudi Arabia but across the Middle East and the
+          globe.
+        </p>
+
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          The success of Hashim Industry Group is a testament to the exceptional
+          business acumen of our team management. Their strategic leadership has
+          not only earned the admiration of Saudi Arabian community but also
+          garnered recognition across the Middle East and globally.
         </p>
 
         <div className="mt-4 ">
-          <p className="text-lg dark:text-primary">
-            History of the Group - The Beginning of a New Era
+          <p className="text-lg dark:text-primary normal-case">
+            Tracing Our Journey, A Corporate Chronical of Growth and Innovation
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div>
-            <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-              The initial years were not a bed of roses. The group began as a
-              company that made flipflops (footwear) and water cups for the
-              pilgrim. As the group grew in size and capacity, it expanded the
-              portfolio to other industries, notably industrial materials
-              industry, and real estate. The group witnessed great success in
-              these segments and began exporting plastics to European countries.
-            </p>
-            <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-              Incidentally, during this period, The GCC found itself in the
-              middle of the construction boom. Millions came in as foreign
-              investments and presented a unique opportunity for the local
-              entrepreneurs to make a mark in the real estate sector. Thanks to
-              the exceptional teamwork, the group at present has over 2300
-              employees working in over 43 nations. The annual cumulative
-              production of the group is 300,000 tones.
-            </p>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
+          The journey of our group commenced amidst challenges, yet with
+          unwavering determination and vision. Originating as a modest
+          enterprise specializing in the production of flip-flops and water cups
+          for pilgrims, our evolution has been marked by strategic
+          diversification and dynamic growth.
+        </p>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          Expanding our horizons beyond traditional sectors, we ventured into
+          the industrial materials industry and real estate, broadening our
+          portfolio to meet evolving market demands. Our commitment to
+          excellence propelled us to achieve remarkable success in these
+          ventures, culminating in the exportation of plastics to esteemed
+          European markets.
+        </p>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          During this pivotal period, the Gulf Cooperation Council (GCC)
+          witnessed an unprecedented construction boom, attracting substantial
+          foreign investments and creating fertile ground for local
+          entrepreneurs to thrive, particularly in the real estate sector.
+          Leveraging this opportune climate, our group harnessed collective
+          expertise and teamwork to seize emerging opportunities.
+        </p>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          Presently, our group stands as a testament to our enduring dedication,
+          with a workforce exceeding 2,300 employees operating across 45
+          nations. Our annual cumulative production now exceeds 300,000 metric
+          tonnes, underscoring our steadfast commitment to innovation, quality,
+          and global excellence.
+        </p>
 
-            <div className="mt-4 ">
-              <p className="text-lg dark:text-primary">
-                Mission - In Pursuit of a Dream
-              </p>
-
-              <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-                Hashim Industry had to persevere and stay true to the dream of
-                bringing Saudi Arabia on the world map of advanced plastics
-                engineering. Overcoming deep hurdles, Mr.Hashim conquered the
-                steepest of hurdles and his success is evident in the group's
-                presence all over the globe. Headquartered in Jeddah, Saudi
-                Arabia, the group has concerns not just in Middle East, but also
-                in Europe, Africa and Asia.
-              </p>
-
-              <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-                Soon enough, the perseverance and hard work blossomed and Hashim
-                Industry brands quickly becoming the first choice of every major
-                consumer of high quality advanced plastics.
-              </p>
-            </div>
-          </div>
-          <div className="relative h-96 lg:h-auto">
-            <img src={SaudiArabia} className="w-full pt-[15px] pl-4" alt="" />
-            <img
-              src={Hashim2}
-              className="absolute bottom-10 lg:bottom-0 lg:w-60 lg:border-t-8 lg:border-r-8 border-white dark:border-dark"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-      <div
-        className="pt-4"
-        data-aos="zoom-in"
-        data-aos-delay="100"
-        data-aos-duration="1000"
-      >
-        <p className="text-lg dark:text-primary">
-          Milestones - Crowning Achievements
-        </p>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-          Arabian Gulf Manufacturers Ltd was the first venture of the group that
-          brought success to the company. The industry is spread over a
-          sprawling 90,000 square meter of industrial area situated close to the
-          centre of Jeddah, which is the second largest city in the kingdom and
-          strategically placed near maritime channels running in and out of the
-          Red Sea. Since its inception in 1963, Gulf Maid (AGM) is a company
-          with worldwide operations with key business partners in Europe, Asia
-          and Africa.
-        </p>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-          but Hashim Industry management did not let the success deviate the
-          initial dreams and they knew more had to be done in order to raise The
-          Hashem Industry supremacy in advanced plastics in the region as well
-          as worldwide.
-        </p>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-          Subsequently, started another plastics manufacturing and packaging
-          industry. Prime Plastic Products (3P) was established in the year
-          1992, producing state-of-art packaging solutions capable of handling
-          products like Food, Beverage and Water, Pharmaceutical, Dentifrice,
-          Personal Care industries. Stretch & shrink wrapping. 3P was based on
-          100,000 sq. m area in Jeddah adjacent to the existing AGM facility.
-          Not only does the new industry adds a new feather to the group's hat,
-          it also expands its territorially.
-        </p>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-          After having admirably conquered the plastics and packaging industry,
-          next in line was something that provided the group an avenue to
-          increase its portfolio without wandering off its favorite industry,
-          which was plastic manufacturing.
-        </p>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-          The shrewd leader in Mr.Hashem saw the opportunity in the construction
-          materials. The group had an immense experience in manufacturing
-          plastics, so the transition was rather easy for it to make and the
-          consequential profits were enormous. The pros of entering the HDPE
-          pipes manufacturing industry outweighed the cons, so in the year 2000
-          the all new Gulf Manufacturers (GM) began operations in Cairo/Egypt,
-          and started manufacturing HDPE pipes. Gulf Manufacturers has an annual
-          output of 72,000 Metric Tonnes.
-        </p>
-        <div className="flex flex-col lg:flex-row gap-4 mb-4 lg:mb-1 mt-3">
-          <div className="full flex items-center justify-center lg:w-[20%]">
-            <img
-              src={Hashim3}
-              alt=""
-              className="w-1/2 lg:w-full bg-white border-offGray border-4 rounded-lg"
-            />
-          </div>
-          <div className="w-full lg:w-[80%]">
-            <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal mb-2">
-              In the following years, Hashim Industry expanded the pipes
-              portfolio to construction industry that was riding on huge wave of
-              foreign investments in Saudi Arabia, and Egypt. Buoyed by strong
-              demands from builders and construction workers, RAKtherm
-              immediately became a big name not just in the immediate region,
-              but also in the entire region. Every year 9000 metric tonnes of
-              PP-R pipes roll out of RakTherm which is then shipped all over the
-              region. With efficient administration, great workforce working in
-              factories spread over 40,000 sqm., and its strategic position at
-              Ras Al Khaimah, it was soon becoming clear that the company would
-              soon become the one and only name in high quality constructions
-              pipes.
-            </p>
-          </div>
+        <div className="mt-4 ">
+          <p className="text-lg dark:text-primary normal-case">
+            Endeavor in Advancing our Global Position in Advanced Plastics
+            Engineering
+          </p>
         </div>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-          The group is also present in the region as supplier of fast food and
-          beverages made locally as well as internationally. The Rawasy Al
-          Khaleej Plastic Ind. is located in Sharjah and was established in the
-          year 1994.
+          Hashim Industry has shown unwavering commitment to achieving the
+          endeavor of positioning Saudi Arabia as a global leader in advanced
+          plastics engineering.Despite encountering significant challenges, Mr.
+          Hashim's determination has propelled the group to surmount obstacles,
+          resulting in its widespread presence across the globe. With its
+          headquarters located in Jeddah, Saudi Arabia, the group extends its
+          reach beyond the Middle East to encompass Europe, Africa, and Asia.
         </p>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-          In the later years, the group began showing interest in real estate,
-          communications, and then later high performance plastic solutions. To
-          that end, Hashim Industry unveiled in 2012 a brand new venture to
-          cater to the global market that needed high performance plastic
-          solutions. Added-value plastic products are manufactured and made in
-          cutting edge factory of TAHWEEL Industry in Ras Al Khaimah, UAE.
+          Through dedication and diligent effort, Hashim Industry has excelled,
+          establishing its brands as the preferred choice in response to the
+          global market’s demand for premium advanced plastics.
+        </p>
+
+        <div className="mt-4 ">
+          <p className="text-lg dark:text-primary normal-case">
+            Stepping into the Highlights of Milestones
+          </p>
+        </div>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
+          Arabian Gulf Manufacturers Ltd marked the group's inaugural triumph,
+          establishing a legacy of success. Spanning a vast 90,000 square meters
+          of industrial space near the heart of Jeddah, this facility
+          strategically positions the company within close proximity to maritime
+          channels traversing the Red Sea. Since its inception in 1963, Gulf
+          Maid (AGM) has evolved into a globally recognized entity, boasting key
+          partnerships across Europe, Asia, and Africa.
         </p>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-          In a nutshell, every initiative taken by the Hashem Industry is guided
-          by the teamwork, and hence every step is a realization of the dreams
-          that the founder had seen for the group.
+          Following this milestone, the group embarked on another groundbreaking
+          venture in plastics manufacturing and packaging. Prime Plastic
+          Products (3P), established in 1992, specializes in state-of-the-art
+          packaging solutions catering to industries such as Food & Beverage,
+          Pharmaceuticals, and Personal Care. Occupying a sprawling 100,000
+          square meters in Jeddah, adjacent to the existing AGM facility, 3P not
+          only diversifies the group's offerings but also expands its
+          territorial reach.
+        </p>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          Maintaining a steadfast commitment to innovation, Hashim Industry's
+          leadership remained undeterred by past successes. Recognizing an
+          opportunity to leverage its expertise in plastics manufacturing, the
+          group ventured into the construction materials sector. In 2000, Gulf
+          Manufacturers (GM) commenced operations in Cairo, Egypt, focusing on
+          HDPE pipe manufacturing. With an annual output of 72,000 metric
+          tonnes, GM quickly emerged as a prominent player in the industry.
+        </p>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          In subsequent years, Hashim Industry extended its portfolio to the
+          construction sector, capitalizing on burgeoning foreign investments in
+          Saudi Arabia and Egypt. RAKtherm, specializing in PP-R pipe
+          production, quickly garnered acclaim both regionally and
+          internationally. With an annual production capacity of 9,000 metric
+          tonnes and state-of-the-art facilities spanning 40,000 square meters
+          in Ras Al Khaimah, RAKtherm positioned itself as a leading provider of
+          high-quality construction pipes.
+        </p>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          Furthermore, the group expanded its presence in the region as a
+          supplier of fast-moving consumer goods, establishing Rawasy Al Khaleej
+          Plastic Ind. in Sharjah in 1994.
+        </p>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          In subsequent years, the group diversified its interests to include
+          real estate, communications, and high-performance plastic solutions.
+          In 2012, Gulf Plastic and Converting Industries was launched in Ras Al
+          Khaimah, UAE, specializing in the production of value-added plastic
+          products to meet global demand.
+        </p>
+        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
+          Each initiative undertaken by Hashim Industry embodies the spirit of
+          teamwork and is a realization of the founder's visionary dreams for
+          the group.
         </p>
       </div>
     </div>

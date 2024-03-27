@@ -169,13 +169,11 @@ const GlobalInvesting = () => {
         <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">
           Global Investing
         </h1>
-        <p className="text-lg font-bold text-primary mt-4 normal-case">
-          Hashim Industry Group's Progress Journey
-        </p>
+
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-          Our business model has been meticulously crafted to incorporate the
-          essential capabilities necessary for effectively serving our expanding
-          clientele.
+          We have built our business model from the ground up to ensure that we
+          have the capabilities required to successfully deliver our services to
+          our growing client base.
         </p>
 
         <div className="w-full rounded-lg border bg-primary border-primary mt-4 shadow-3d animate__animated animate__zoomIn">

@@ -32,12 +32,12 @@ const FloatingMenu = () => {
   const menu = [
     {
       id: 1,
-      link: "/",
+      link: "/v7",
       icon: (
         <TiHomeOutline
           size={32}
           className={`${
-            location === "/" ? "text-primary" : "text-dark dark:text-white"
+            location === "/v7" ? "text-primary" : "text-dark dark:text-white"
           } hover:text-primary dark:hover:text-primary cursor-pointer outline-none`}
         />
       ),
@@ -155,7 +155,7 @@ const FloatingMenu = () => {
       {/* DESKTOP FLOATING MENU */}
       <div
         className={`hidden lg:block group fixed top-1/4 right-5 rounded-lg bg-white dark:bg-dark border-primary border-2 animate__animated ${
-          isScroll ? "animate__flipInX" : "animate__flipOutX"
+          isScroll ? "animate__fadeIn" : "animate__fadeOut animate__faster"
         } `}
       >
         {menu.map((data, key) => (

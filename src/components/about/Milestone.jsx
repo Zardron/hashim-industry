@@ -5,20 +5,14 @@ import PIPE from "../../assets/img/logo2-1.png";
 import GM from "../../assets/img/logo3.png";
 
 const Milestone = () => {
-  useEffect(() => {
-    window.scroll({ top: 500, left: 0, behavior: "smooth" });
-  });
-
   return (
     <div className="bg-white dark:bg-dark">
       <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">
         Milestone
       </h1>
       <div>
-        <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-2">
-          A long line of landmark achievements and product milestones have made
-          hashim industry. A leading company for supplying of plastics,
-          industrial materials, and food packaging products.
+        <p className="text-lg dark:text-primary mt-4 normal-case">
+          Significant Milestones - Hallmarks of Achievement
         </p>
       </div>
       <div className="bg-white dark:bg-dark dark:text-white mt-2 pt-1">
@@ -36,10 +30,11 @@ const Milestone = () => {
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">AGM- GULFMAID</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
-                  Arabian Gulf Manufacturers Ltd (AGM) established in 1963.
-                  90,000 square meters of facilities using state-of-the-art
-                  equipment used in the highly sophisticated industry to produce
-                  plastic products.
+                  In 1963, Arabian Gulf Manufacturers Ltd (AGM) was established,
+                  utilizing 90,000 square meters of cutting-edge facilities
+                  equipped with state-of-the-art machinery to pioneer the
+                  production of plastic products in the highly sophisticated
+                  industry.
                 </p>
               </div>
             </div>
@@ -66,9 +61,10 @@ const Milestone = () => {
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">3P PIPE</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
-                  Prime Plastic Products, also commonly known as 3P Gulf Groups
-                  began operations. It covered an impressive 10,000 sq meters in
-                  Jeddah, the second largest city in Saudi Arabia.
+                  Prime Plastic Products, also known as 3P Gulf Group, commenced
+                  operations, boasting a substantial 10,000 square meters of
+                  manufacturing space in Jeddah, the second largest city in
+                  Saudi Arabia.
                 </p>
               </div>
             </div>
@@ -87,8 +83,9 @@ const Milestone = () => {
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">RAWASY AL KHALEEJ</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
-                  Hashem Group added a new feature in its cap and started Rawasy
-                  Al Khaleej, an integrated packaging industry.
+                  Hashim Group expanded its portfolio with the establishment of
+                  Rawasy Al Khaleej, an integrated packaging industry, further
+                  enhancing its capabilities.
                 </p>
                 <p className="text-sm text-dark font-normal normal-case text-justify">
                   &nbsp;
@@ -118,9 +115,10 @@ const Milestone = () => {
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">GULF MANUFACTURER</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
-                  In over 40,000 sq meter of land in Egypt, GM’s PVC and PE and
-                  fittings. 40,000 sqm. The company used various advanced
-                  machineries and equipment.
+                  GM ventured into the PVC and PE fittings market, utilizing
+                  over 40,000 square meters of land in Egypt. Leveraging
+                  advanced machinery and equipment, the company solidified its
+                  presence in the industry.
                 </p>
               </div>
             </div>
@@ -139,9 +137,13 @@ const Milestone = () => {
                 </div>
                 <p className="mt-2 text-base lg:text-2xl">RAKTHERM</p>
                 <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-2 dark:text-white">
-                  PP-R and PEX pipes & fitting systems was established. The
-                  company increased the group’s production of pipes. It also
-                  marked the foray of the group in the construction industry.
+                  PP-R and PEX pipes & fitting systems were introduced,
+                  significantly boosting the group's pipe production capacity.
+                  This expansion also signaled the group's entry into the
+                  construction industry. Additionally, the company diversified
+                  its offerings to include UPVC, RAK Duct electrical and conduit
+                  wiring systems, fire and gas piping systems, concealed
+                  cisterns, silicone sealants, and plumbing accessories.
                 </p>
               </div>
             </div>
@@ -151,6 +153,13 @@ const Milestone = () => {
           </div>
           <div className="hidden lg:block"></div>
         </div>
+        <p className="text-[10px] leading-snug lg:text-sm text-dark font-normal normal-case text-justify pt-10 pb-6 dark:text-white">
+          The company ventured into providing petrochemical solutions for the
+          plastics, packaging, and building materials sectors. With a focus on
+          delivering high-performance petrochemical products, the aim was to
+          meet the needs of clients in the United Arab Emirates seeking
+          top-quality solutions.
+        </p>
       </div>
     </div>
   );

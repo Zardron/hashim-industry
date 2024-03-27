@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 
 const ContactUs = () => {
-  useEffect(() => {
-    window.scroll({ top: 500, left: 0, behavior: "smooth" });
-  });
   return (
     <div className="dark:bg-dark">
       <div className="container mx-auto py-10 px-4">
@@ -53,9 +50,10 @@ const ContactUs = () => {
           </div>
 
           <p className="text-dark text-justify dark:text-white text-[11px] lg:text-[16px] leading-6 normal-case leading font-normal pt-3 italic">
-            Note: We do our best to respond to all our enquiries as we check our
-            email & faxes regularly. The fastest way to reach is via E-mail. We
-            try to respond to all our emails promptly.
+            <span className="font-bold">Note:</span> We make every effort to
+            promptly address all inquiries received, as we diligently monitor
+            our communication channels. Rest assured, we are dedicated to
+            responding to all messages in a timely manner.
           </p>
         </div>
       </div>

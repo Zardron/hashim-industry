@@ -101,56 +101,43 @@ const Management = () => {
             Governance and Corporate Social Responsibility
           </p>
           <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-            The board of directors diligently oversees all significant business
-            matters, including strategic planning, corporate responsibilities,
-            legal and ethical compliance, and human resource decisions. By
-            upholding best practices, the board ensures that the group operates
-            with the highest standards of integrity and accountability.
-          </p>
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-            Despite the extensive scope of its operations, the group remains
-            deeply committed to its societal and environmental responsibilities.
-            Through comprehensive environmental strategies, we actively mitigate
-            our impact on the environment and contribute positively to society.
-            These strategies include:
+            All significant business matters are overseen by the board of
+            directors. These matters often relate to business plans, corporate
+            responsibilities, legal and ethical issues and human resource
+            decisions to name a few. Since these matters are closely related
+            with the Board of directors, it is ensured that only the best
+            practices are followed. Despite its vast range of responsibilities
+            and operations, the group is well aware of its responsibilities
+            towards the society and the environment at large and does everything
+            in its power to ensure that the society as well as the environments
+            is not neglected. This is ensured with the help of the four key
+            environmental strategy:
           </p>
           <ol className="pl-8 list-decimal">
             <li className="text-dark dark:text-white text-[16px] leading-6 normal-case leading font-normal">
-              Implementing waste reduction measures through efficient recycling
-              practices.
+              Reducing waste through recycling
             </li>
             <li className="text-dark dark:text-white text-[16px] leading-6 normal-case leading font-normal">
-              Ensuring responsible transportation methods to minimize our carbon
-              footprint.
+              Transporting responsibly
             </li>
             <li className="text-dark dark:text-white text-[16px] leading-6 normal-case leading font-normal">
-              Adopting sustainable packaging solutions to reduce environmental
-              impact.
+              Responsible packaging
             </li>
             <li className="text-dark dark:text-white text-[16px] leading-6 normal-case leading font-normal">
-              Embracing Green IT initiatives to optimize energy efficiency and
-              reduce electronic waste.
+              Green IT
             </li>
           </ol>
-
-          <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-            By integrating these strategies into our operations, we strive to
-            fulfill our corporate social responsibility and safeguard the
-            well-being of both society and the environment.
-          </p>
         </div>
 
         <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
           <p className="text-lg dark:text-primary normal-case pt-4">
-            Consolidated Annual Sales Overview
+            Consolidated Annual Sales
           </p>
           <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-            In the fiscal year concluding on March 31, 2012, the Group achieved
-            significant milestones, culminating in an impressive annual sales
-            figure of USD (xxx). This accomplishment was facilitated by
-            strategic utilization of the average international currency exchange
-            rates between the Saudi Riyal and US Dollars The breakdown of sales
-            is outlined as follows:
+            The Group recorded an annual sales figure of USD (xxx), for the
+            fiscal year that ended March 31, 2012 based on the average
+            international currency exchange rates of the Saudi Riyal to US
+            Dollars. The breakdown of the sales figures are as below:
           </p>
           <ol className="pl-8 list-decimal">
             <li className="text-dark dark:text-white text-[16px] leading-6 normal-case leading font-normal">
@@ -168,60 +155,53 @@ const Management = () => {
 
         <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
           <p className="text-lg dark:text-primary normal-case pt-4">
-            Workforce Development Statement
+            Workforce
           </p>
           <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-            At the Hashim Group, we recognize human resource development as a
-            fundamental management priority. Presently, our workforce comprises
-            2300 dedicated employees stationed across our global network of
-            factories. We hold a firm belief in the imperative nature of
-            nurturing and advancing our workforce, as we perceive it to be the
-            cornerstone propelling our organization towards unparalleled
-            success.
+            The Hashim Group considers human resource development a key
+            management responsibility. Currently there are 2300 happy employees
+            working for the group in factories based all over the globe. The
+            group considers it very important to develop and nourish its
+            workforce, which they believe is the factor that will catapult the
+            group to the zenith of success.
           </p>
         </div>
 
         <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
           <p className="text-lg dark:text-primary normal-case pt-4">
-            Global Sales Network Overview
+            Global Sales Network
           </p>
           <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-            The Hashim Group operates a robust sales network spanning across
-            more than 45 countries worldwide. While our primary focus remains on
-            the Middle East region, we boast a formidable presence in key
-            markets across Europe, America, Africa, and Asia. Our sustained
-            success is underpinned by strategic partnerships with industry
-            experts on every continent, facilitating the continuous enhancement
-            of our product offerings and the exploration of new market
-            opportunities.
+            Sales of the group takes place in more than 43 countries. Most of
+            them are in the Middle East, but the group also has a very strong
+            presence in Europe, America, Africa and Asia. It maintains a strong
+            partnership with experts in all continents, which helps them in
+            developing better products and reaching new markets.
           </p>
         </div>
 
         <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
           <p className="text-lg dark:text-primary normal-case pt-4">
-            Annual Group Output
+            Annual Output of the Group
           </p>
           <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-            300,000 metric tons
+            300, 000 metricTons.
           </p>
         </div>
 
         <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
           <p className="text-lg dark:text-primary normal-case pt-4">
-            Research & Development Statement
+            Research & Development
           </p>
           <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-            Throughout its evolution, the Hashim Group has made significant
-            investments in Research & Development (R&D) endeavors. In an era
-            where consumers of plastic goods contend with escalating product
-            prices and environmental concerns associated with plastics, our
-            Group remains steadfast in its commitment to innovation. Leveraging
-            cutting-edge scientific processes within our state-of-the-art
-            facilities, we address these challenges head-on, pioneering new
-            concepts and solutions. Our team of experts engages in a relentless
-            pursuit to maintain product affordability, enhance quality, and
-            augment product value, ensuring that we continuously meet and exceed
-            consumer expectations.
+            Over the years, the group has investment substantially in R&D
+            activities. Every year consumers of plastic goods are faced with the
+            rising price of products and worried by the threats of plastics to
+            environment. Hashim Group employs the latest scientific process in
+            its state of the art factories to overcome those obstacles and
+            develop new concepts. There is a continuous effort among the experts
+            to keep product prices under control while improving the quality and
+            adding value to the products.
           </p>
         </div>
       </div>

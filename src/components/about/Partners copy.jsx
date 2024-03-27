@@ -80,23 +80,18 @@ const Partners = () => {
         Partners
       </h1>
       <div className="bg-white dark:text-white dark:bg-dark mt-3 animate__animated animate__zoomIn">
-        <p className="text-lg dark:text-primary mt-4 normal-case">
-          Partnership Statement
-        </p>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-1">
-          At Hashim Industries, we recognize that the journey from innovation
-          and groundbreaking scientific discoveries to successful consumer
-          products relies heavily on harnessing the finest global resources,
-          experiences, and talents.
+          The path from innovation and ground breaking scientific advances to
+          successful consumer products depends on convening the best global
+          resources, experience and talent.
         </p>
         <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal pt-3">
-          We are dedicated to fostering close collaboration with partners who
-          share our vision and align with our commitment to shaping a brighter
-          future through innovative and consumer-centric products. Our partners
-          are drawn to us by our unwavering adherence to ethical business
-          practices, steadfast dedication to delivering exceptional services,
-          and our adeptness in leveraging cutting-edge technology to streamline
-          costs in plastics conversion.
+          At Hashim Industries , we strongly believe in collaborating closely
+          with partners who share a common dream and have the similar goals of
+          making the future better through innovative and consumer-centric
+          products. Our partners choose us because of our business ethics,
+          unfailing commitment to provide satisfactory services and our ability
+          to cut costs with the help of new technology in plastics conversion.
         </p>
       </div>
 

@@ -74,7 +74,7 @@ const Careers = ({ setTitle, setSubtitle }) => {
         <div className="w-full lg:w-[15%]">
           <div
             className={`${
-              screenSize.width <= 768 ? "" : "menu-section dark:bg-dark"
+              screenSize.width <= 1028 ? "" : "menu-section dark:bg-dark"
             } border-primary border rounded-md p-4 shadow-3d`}
           >
             <h1 className="text-primary font-bold text-2xl uppercase pl-1">

@@ -5,7 +5,7 @@ const navLink = [
   {
     id: 1,
     title: "Home",
-    link: "/",
+    link: "/v7",
   },
   {
     id: 2,
@@ -50,12 +50,12 @@ const Header = () => {
   return (
     <div className="absolute top-0 w-full z-50">
       <div className="hidden container lg:block mx-auto py-2">
-        <div className="flex items-center justify-between">
+        <div className="flex md:flex-col 2xl:flex-row items-center justify-between ">
           <div>
             <img className="h-30" src={LOGO} alt="" />
           </div>
 
-          <div className="flex gap-10">
+          <div className="flex flex-row gap-10 z-50 md:py-4 md:border-t md:border-t-primary 2xl:border-none">
             {navLink.map((data, index) => (
               <div key={index}>
                 <Link to={data.link}>

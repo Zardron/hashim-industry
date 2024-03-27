@@ -28,10 +28,6 @@ const newsData = [
 ];
 
 const PressRelease = () => {
-  useEffect(() => {
-    window.scroll({ top: 500, left: 0, behavior: "smooth" });
-  });
-
   return (
     <div className="bg-white dark:bg-dark">
       <h1 className="text-primary font-bold text-2xl uppercase border-b-offGray border-b pb-1">

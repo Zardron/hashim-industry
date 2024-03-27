@@ -63,9 +63,6 @@ const groupDirectoryData = [
 ];
 
 const GroupDirectory = () => {
-  useEffect(() => {
-    window.scroll({ top: 500, left: 0, behavior: "smooth" });
-  });
   return (
     <div className="dark:bg-dark">
       <div className="container mx-auto py-10 px-4">
