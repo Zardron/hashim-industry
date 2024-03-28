@@ -43,7 +43,7 @@ const Operations = ({ setTitle, setSubtitle }) => {
   };
 
   const screenSize = GetScreenSize();
-  IsSticky();
+  screenSize.width <= 1028 ? "" : isSticky();
 
   return (
     <div className="dark:bg-dark px-8 lg:px-0">

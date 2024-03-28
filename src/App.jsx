@@ -105,24 +105,39 @@ const App = () => {
       case "/v7/":
         return <Banner />;
       case "/about-us":
-        return <PageBanner LOGO={bannerImg} {...props} />;
+        return <PageBanner darkMode={darkMode} LOGO={bannerImg} {...props} />;
       case "/global-investing":
         return (
-          <PageBanner LOGO={BANNER3} title="Home" subTitle="Global Investing" />
+          <PageBanner
+            darkMode={darkMode}
+            LOGO={BANNER3}
+            title="Home"
+            subTitle="Global Investing"
+          />
         );
       case "/operations":
-        return <PageBanner LOGO={BANNER11} {...props} />;
+        return <PageBanner darkMode={darkMode} LOGO={BANNER11} {...props} />;
       case "/careers":
-        return <PageBanner LOGO={BANNER12} {...props} />;
+        return <PageBanner darkMode={darkMode} LOGO={BANNER12} {...props} />;
       case "/news-and-events":
-        return <PageBanner LOGO={BANNER13} {...props} />;
+        return <PageBanner darkMode={darkMode} LOGO={BANNER13} {...props} />;
       case "/group-directory":
         return (
-          <PageBanner LOGO={BANNER15} title="Home" subTitle="Group Directory" />
+          <PageBanner
+            darkMode={darkMode}
+            LOGO={BANNER15}
+            title="Home"
+            subTitle="Group Directory"
+          />
         );
       case "/contact-us":
         return (
-          <PageBanner LOGO={BANNER15} title="Home" subTitle="Contact Us" />
+          <PageBanner
+            darkMode={darkMode}
+            LOGO={BANNER15}
+            title="Home"
+            subTitle="Contact Us"
+          />
         );
       default:
         return <Banner />;

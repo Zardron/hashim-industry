@@ -46,8 +46,6 @@ const About = ({ title, subTitle, setTitle, setSubtitle }) => {
   const [renderComponent, setRenderComponent] = useState("history");
   const { state } = useLocation();
 
-  console.log(state);
-
   useEffect(() => {
     if (state === undefined || state === null) {
       setRenderComponent("history");
@@ -89,7 +87,8 @@ const About = ({ title, subTitle, setTitle, setSubtitle }) => {
   };
 
   const screenSize = useScreenSize();
-  isSticky();
+
+  screenSize.width <= 1028 ? "" : isSticky();
 
   return (
     <div className="dark:bg-dark px-8">

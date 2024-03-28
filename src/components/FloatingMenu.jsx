@@ -182,7 +182,7 @@ const FloatingMenu = () => {
       {/* END */}
 
       {/* MOBILE BOTTOM STICKY MENU */}
-      <div
+      {/* <div
         className={`lg:hidden px-4 pt-2 flex flex-row justify-around group fixed bottom-0 right-0 left-0 mx-auto bg-white dark:bg-dark border-primary border-t-2 animate__animated animate__flipIn
         `}
         style={{ paddingBottom: "10px !important" }}
@@ -203,7 +203,7 @@ const FloatingMenu = () => {
         ))}
 
         <ReactToolTip content={content} />
-      </div>
+      </div> */}
       {/* END */}
     </>
   );
