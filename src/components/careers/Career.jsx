@@ -50,7 +50,7 @@ const Career = ({ setRenderComponent }) => {
           Corporate Commitments
         </p>
 
-        <div className="flex flex-row justify-between gap-4">
+        <div className="flex flex-col lg:flex-row justify-between gap-4">
           <div className="w-full lg:w-[70%]">
             <p className="text-dark text-justify dark:text-white text-[16px] leading-6 normal-case leading font-normal">
               Our employees are the cornerstone of our company's success. We

@@ -29,14 +29,14 @@ const Footer = ({ darkMode }) => {
         }}
       >
         <div className="container w-full mx-auto p-2">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-6">
             <Link
               href="https://flowbite.com/"
               className="flex items-center sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
               <img src={LOGO_W} className="h-18" alt="Company Logo" />
             </Link>
-            <div className="flex flex-row items-center gap-4">
+            <div className="flex flex-row items-center gap-1">
               <FaFacebookSquare
                 size={30}
                 className="text-light dark:text-white"
